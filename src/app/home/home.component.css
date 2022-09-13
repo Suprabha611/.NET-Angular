@@ -1,0 +1,25 @@
+img {
+    height: 600px;
+}
+h5{
+  color: darkred;
+  text-align: center;
+}
+h4 {
+  color:azure;
+  text-align: justify;
+}
+p{
+  color: black;
+  text-align: center;
+}
+button:hover {
+  opacity: 0.7;
+}
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+.carousel-item img{
+  width:50%;
+  height:550px;
+}

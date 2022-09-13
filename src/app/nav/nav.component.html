@@ -42,12 +42,12 @@
         </ul>
         <form class="d-flex">
           <input type="text" #productname placeholder="Enter product name" style="border-radius:10px;">&nbsp;
-          <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:5px; width:70px; height: 50px;">Search</button>
+          <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:5px; width:70px; height: 40px;">Search</button>
           <br>
           <!--@Input(product) in search component-->
           <!--PROPERTY BINDING-->
-          <!--@Input(product) in search component is going to receive the value from productentered property from nav component
-          &nbsp;&nbsp;&nbsp;-->
+          <!--@Input(product) in search component is going to receive the value from productentered property from nav component-->
+          &nbsp;&nbsp;&nbsp;<br>
           <app-search [product]="productentered"></app-search>
         </form>
       </div>

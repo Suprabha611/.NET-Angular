@@ -9,6 +9,7 @@ export class CardComponent implements OnInit {
 
   constructor() { }
 
+  S="assets/img2.jpg"
   ngOnInit(): void {
   }
 

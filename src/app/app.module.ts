@@ -8,6 +8,9 @@ import { NavComponent } from './nav/nav.component';
 import { CardComponent } from './card/card.component';
 import { SearchComponent } from './search/search.component';
 import { HomeComponent } from './home/home.component';
+import {MatButtonModule} from '@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SimpleComponent } from './simple/simple.component';
 
 @NgModule({
   declarations: [
@@ -15,11 +18,14 @@ import { HomeComponent } from './home/home.component';
     NavComponent,
     CardComponent,
     SearchComponent,
-    HomeComponent
+    HomeComponent,
+    SimpleComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

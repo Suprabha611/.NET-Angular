@@ -2,24 +2,24 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img [src]="logo" alt="Dreams"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="">DREAMS</a>
+            <a class="nav-link active" aria-current="page" routerLink="home">{{title}}</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"routerLink="cards" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Designs </a>
+            <a class="nav-link dropdown-toggle"routerLink="DREAMS" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Designs </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Simple</a></li>
-              <li><a class="dropdown-item" href="#">LED</a></li>
-              <li><a class="dropdown-item" href="#">Blue Feathers</a></li>
-              <li><a class="dropdown-item" href="#">Colourful</a></li>
-              <li><a class="dropdown-item" href="#">Multi-Layered</a></li>
-              <li><a class="dropdown-item" href="#">Hand Crafted</a></li>
-              <li><a class="dropdown-item" href="#">Evil Eye</a></li>
+              <li><a class="dropdown-item" routerLink="simple">Simple</a></li>
+              <li><a class="dropdown-item" routerLink="home">LED</a></li>
+              <li><a class="dropdown-item" routerLink="designs">Blue Feathers</a></li>
+              <li><a class="dropdown-item" routerLink="home">Colourful</a></li>
+              <li><a class="dropdown-item" routerLink="home">Multi-Layered</a></li>
+              <li><a class="dropdown-item" routerLink="home">Hand Crafted</a></li>
+              <li><a class="dropdown-item" routerLink="home">Evil Eye</a></li>
             </ul>
           </li>  
           <li class="nav-item dropdown">
@@ -41,13 +41,12 @@
           </li>
         </ul>
         <form class="d-flex">
-          <input type="text" #productname placeholder="Enter product name" style="border-radius:10px;">&nbsp;
-          <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:5px; width:70px; height: 40px;">Search</button>
+          <input type="text" #productname placeholder="Enter product name" style="border-radius:2px; height: 40px;">&nbsp;
+          <button class="btn btn-outline-success"  type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:2px; width:70px; height: 40px; color: blue;">Search</button>
+          <button (click)="onSearch()"> FIND!!!</button>
           <br>
-          <!--@Input(product) in search component-->
           <!--PROPERTY BINDING-->
           <!--@Input(product) in search component is going to receive the value from productentered property from nav component-->
-          &nbsp;&nbsp;&nbsp;<br>
           <app-search [product]="productentered"></app-search>
         </form>
       </div>

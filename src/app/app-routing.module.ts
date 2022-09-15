@@ -9,12 +9,9 @@ import { SimpleComponent } from './simple/simple.component';
 //Configure the routing path for the above imported components
 const routes: Routes = [
   {path:'', redirectTo:'/home', pathMatch:'full'},
-  {path:'DREAMS',component:CardComponent,data: {
-    page: 'home'}},
+  {path:'DREAMS',component:CardComponent},
   {path:'simple',component:SimpleComponent},
   {path:'home',component:HomeComponent},
-  {path:'pricing',component:HomeComponent},
-  {path:'occasions',component:HomeComponent},
   {path:'**', redirectTo:'/home', pathMatch:'full'}
 ];
 

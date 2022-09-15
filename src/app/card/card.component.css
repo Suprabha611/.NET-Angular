@@ -12,3 +12,8 @@
 .card-text{
     text-align: center;
 }
+marquee{
+    text-shadow:2px 3px 3px rgba(150, 13, 70, 0.724);
+    color:rgb(4, 4, 4);
+    font-size: 28px;
+}

@@ -1,14 +1,26 @@
+marquee{
+    text-shadow:2px 3px 3px rgba(10, 70, 138, 0.875);
+    color:black;
+    font-size: 30px;
+}
 .card{
-    background-color:lavender;
-    border-radius: 10px;
-    border-color:darkblue;
+    border-radius: 5px;
+    border-color:black;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border-style: solid;
 }
 .card:hover{
-    opacity: 0.9;
+    opacity: 0.8;
 }
-
 .card-title,
 .card-text{
     text-align: center;
+}
+img{
+    height:100px;
+    width: 100px;
+    margin-top:6px;
+    margin-bottom:7px;
+    border-radius:3px;
 }

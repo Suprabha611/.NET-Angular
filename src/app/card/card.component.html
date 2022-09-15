@@ -1,86 +1,21 @@
-
-<p style="font-size:x-large; text-align: center;"> <strong>MOST BROUGHT!!!</strong></p>
-<br>
-<div class="container">
-    <div class="row">
-      <div class="col col-md-3">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img4.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">LED Crafted</h5>
-            <p class="card-text"> Rs. 700</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>
-          </div>
-        </div>
-      </div>
-      <div class="col col-md-3">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Multi-Layered</h5>
-            <p class="card-text"> Rs. 900 </p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Order Now!! </button>
-          </div>
-        </div>
-      </div>
-      <div class="col col-md-3">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" [src]="S" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Special Designs</h5>
-            <p class="card-text"> Rs. 1255</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!</button>
-          </div>
-        </div>
-      </div>
-      <div class="col col-md-3">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Peacock Feathered</h5>
-            <p class="card-text"> Rs. 2475</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>
-          </div>
-        </div>
-      </div>
-    </div> <br><br>
-    <div class="row">
-      <div class="col col-md-3">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img11.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title"> Spiritual </h5>
-            <p class="card-text"> Rs. 1780</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!!</button>
-          </div>
-        </div>
-      </div>
-      <div class="col col-md-3">
-        <div class="card" style="width: 16rem;">
-         <img class="card-img" src="assets/img1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Blue Coloured</h5>
-            <p class="card-text"> Rs.1350</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>
-          </div>
-        </div>
-      </div>
-      <div class="col col-md-3">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img9.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Evil Eye</h5>
-            <p class="card-text"> Rs. 2700</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>
-          </div>
-        </div>
-      </div>      
-      <div class="col col-md-3">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img10.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Moon Shaped</h5>
-            <p class="card-text"> Rs. 1400</p>
+<marquee style="font-size:x-large; text-align: center;"> MOSTLY BROUGHT!!!</marquee>
+<br> <br>
+<div *ngFor="let c of car" style="float:left;">
+  <div class="row">
+    <div class="card col-sm-3" style="width: 18rem; margin-left:70px; margin-bottom: 50px;">
+      <!--Property Binding-->
+      <img [src]="c.img" class="card-img-top" alt="..." style="height:300px; width:230px; margin-left:25px; margin-top: 20px;">
+      <div class="card-body">
+        <!--Interpolation Binding-->
+        <div>
+          {{c.pname | uppercase}}
+          <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+        </div> <br>
+        <div [hidden]="productDetail">
+          {{c.pdescription}}
+          <br> <br>
+          <b>Price: {{c.price | currency:'INR'}}</b>
+          <div class="card-text">
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>
           </div>
         </div>

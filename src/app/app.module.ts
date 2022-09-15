@@ -24,6 +24,7 @@ import { SimpleComponent } from './simple/simple.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     BrowserAnimationsModule,
     MatButtonModule
   ],

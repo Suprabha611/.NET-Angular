@@ -1,0 +1,58 @@
+[
+    {
+        "pid":"01",
+        "pname":"Led Crafted",
+        "price": "700",
+        "img":"assets/img4.jpg",
+        "pdescription": "You are in the right place. Buy these for home or to gift someone."
+    },
+    {
+        "pid":"02",
+        "pname":"Multi-Layered",
+        "price": "900",
+        "img": "assets/img3.jpg",
+        "pdescription": "You are in the right place. Buy these as it resembles peace !!"
+    },
+    {
+        "pid":"03",
+        "pname":"Special Designs",
+        "price": "1255",
+        "img": "assets/img2.jpg",
+        "pdescription": "You are in the right place. Buy these colourful ones!!"
+    },
+    {
+        "pid":"04",
+        "pname":"Peacock Feathered",
+        "price": "2475",
+        "img": "assets/img5.jpg",
+        "pdescription": "You are in the right place. Buy these elegant ones with beeds!!" 
+    },
+    {
+        "pid":"05",
+        "pname":"Spiritual",
+        "price": "1780",
+        "img":"assets/img11.jpeg",
+        "pdescription": "You are in the right place. Buy these Simple and elegant ones!!"
+    },
+    {
+        "pid":"06",
+        "pname":"Blue Coloured",
+        "price": "1350",
+        "img": "assets/img1.jpg",
+        "pdescription": "You are in the right place. Buy these and hang it as a keychain!!"
+    },
+    {
+        "pid":"07",
+        "pname":"Evil Eye",
+        "price": "2700",
+        "img": "assets/img9.jpg",
+        "pdescription": "You are in the right place. Buy these and hang it as a keychain!!"
+    },
+    {
+        "pid":"08",
+        "pname":"Moon Shaped",
+        "price": "1400",
+        "img": "assets/img10.jpg",
+        "pdescription": "White as a Swan!"
+    }
+]

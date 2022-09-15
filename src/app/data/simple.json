@@ -1,0 +1,58 @@
+[
+    {
+        "pid":"01",
+        "pname":"Colourful",
+        "price": "300",
+        "img":"https://4.imimg.com/data4/TW/SC/ANDROID-29384607/product-500x500.jpeg",
+        "pdescription": "You are in the right place. Buy these for home or to gift someone."
+    },
+    {
+        "pid":"02",
+        "pname":"White Coloured",
+        "price": "290",
+        "img": "https://cdn1.dreamcatcher.com/images/D/Tan-dc476-dreamcatcher-with-aventurine.jpg",
+        "pdescription": "You are in the right place. Buy these as it resembles peace !!"
+    },
+    {
+        "pid":"03",
+        "pname":"Colourful",
+        "price": "300",
+        "img": "https://m.media-amazon.com/images/I/51BtinCS2FL._SL1000_.jpg",
+        "pdescription": "You are in the right place. Buy these colourful ones!!"
+    },
+    {
+        "pid":"04",
+        "pname":"Simple & Elegant",
+        "price": "275",
+        "img": "https://i.pinimg.com/originals/90/68/c5/9068c5d5b0feab0b18c9b5d34eef65a6.jpg",
+        "pdescription": "You are in the right place. Buy these elegant ones with beeds!!" 
+    },
+    {
+        "pid":"05",
+        "pname":"Simple & Elegant",
+        "price": "210",
+        "img":"https://wallpaperaccess.com/full/3730926.jpg",
+        "pdescription": "You are in the right place. Buy these Simple and elegant ones!!"
+    },
+    {
+        "pid":"06",
+        "pname":"Small & Simple",
+        "price": "150",
+        "img": "https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701486240.jpg",
+        "pdescription": "You are in the right place. Buy these and hang it as a keychain!!"
+    },
+    {
+        "pid":"07",
+        "pname":"Small & Simple",
+        "price": "230",
+        "img": "https://cutewallpaper.org/21/dream-catcher-backgrounds/Dreamcatcher-Wallpaper-Desktop-Kpop-Smokinwingsspartanburg.com.jpg",
+        "pdescription": "You are in the right place. Buy these and hang it as a keychain!!"
+    },
+    {
+        "pid":"08",
+        "pname":"White Coloured",
+        "price": "350",
+        "img": "https://i.pinimg.com/originals/3b/ae/c0/3baec09313c8e279be55e903f1ac6411.jpg",
+        "pdescription": "White as a Swan!"
+    }
+]

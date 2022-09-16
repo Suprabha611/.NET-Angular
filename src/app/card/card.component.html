@@ -1,8 +1,8 @@
 <marquee style="font-size:x-large; text-align: center;"> MOSTLY BROUGHT!!!</marquee>
 <br> <br>
-<div *ngFor="let c of car" style="float:left;">
+<div *ngFor="let c of car" style="float:left;" class="polaroid">
   <div class="row">
-    <div class="card col-sm-3" style="width: 18rem; margin-left:70px; margin-bottom: 50px;">
+    <div class="card col-sm-3" style="width: 18rem; margin-left:15px; margin-bottom: 50px;">
       <!--Property Binding-->
       <img [src]="c.img" class="card-img-top" style="height:300px; width:230px; margin-left:25px; margin-top: 20px;">
       <div class="card-body">
@@ -15,9 +15,10 @@
           {{c.pdescription}}
           <br> <br>
           <b>Price: {{c.price | currency:'INR'}}</b>
+          <app-content></app-content>
           <div class="card-text">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>
-          </div>
+            <button type="button" class="btn btn-primary" id="grad" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>
+          </div> 
         </div>
       </div>
     </div>

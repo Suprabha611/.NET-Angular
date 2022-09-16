@@ -42,7 +42,7 @@
         </ul>
         <form class="d-flex">
           <input type="text" #productname placeholder="Enter product name" style="border-radius:2px; height: 40px;">&nbsp;
-          <button class="btn btn-outline-success"  type="submit" (click)="search_product(productname.value);productname.value=''" (click)="onSearch()" style="border-radius:2px; width:70px; height: 40px; color: blue;">Find!!</button>
+          <button class="btn btn-outline-success"  type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:2px; width:70px; height: 40px; color: blue;">Find!!</button>
           <br>
           <!--PROPERTY BINDING-->
           <!--@Input(product) in search component is going to receive the value from productentered property from nav component-->

@@ -11,11 +11,6 @@ export class NavComponent implements OnInit {
   title = 'Dreams';
   //PROPERTY BINDING
   public logo="https://img.freepik.com/premium-vector/dream-indian-catcher_118813-1238.jpg?w=2000.jpg";
-  //EVENT BINDING
-  onSearch()
-  {
-    alert("We will contact you shortly");
-  }
 
   //Accessing the Search Component
   //Property

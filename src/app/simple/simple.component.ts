@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import * as simple from "../data/simple.json";
 
 @Component({
@@ -9,6 +9,8 @@ import * as simple from "../data/simple.json";
 export class SimpleComponent implements OnInit {
 
   constructor() { }
+  
+  mycolor='red'
 
   onOrder()
   {
@@ -30,10 +32,10 @@ export class SimpleComponent implements OnInit {
   toggleContent(){
     var content='';
     if(this.productDetail){
-      content='fa-solid fa-arrow-up';
+      content='fa-sharp fa-solid fa-angle-down';
     }
     else{
-      content='fa-solid fa-arrow-down';
+      content='fa-sharp fa-solid fa-angle-up';
     }
     return content;
   }

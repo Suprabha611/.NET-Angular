@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 import {MatButtonModule} from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SimpleComponent } from './simple/simple.component';
+import { ContentComponent } from './content/content.component';
+import { ConchildComponent } from './content/conchild/conchild.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { SimpleComponent } from './simple/simple.component';
     CardComponent,
     SearchComponent,
     HomeComponent,
-    SimpleComponent
+    SimpleComponent,
+    ContentComponent,
+    ConchildComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,4 @@
 .card{
-    background-color:lavender;
     border-radius: 10px;
     border-color:darkblue;
     border-style: solid;
@@ -7,7 +6,6 @@
 .card:hover{
     opacity: 0.9;
 }
-
 .card-title,
 .card-text{
     text-align: center;

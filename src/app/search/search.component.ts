@@ -21,7 +21,7 @@ export class SearchComponent implements OnInit {
   //write
   set pname(pname:any) //Dreams
   {
-    this._productname=pname || 'not found';
+    this._productname=pname || 'Enter the Product';
     console.log(pname)
   }
   //read

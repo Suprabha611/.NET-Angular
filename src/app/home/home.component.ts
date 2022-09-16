@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
 
    //TWO-WAY BINDING
   name="Dreams"
+
   
   prod:products=new products();
 

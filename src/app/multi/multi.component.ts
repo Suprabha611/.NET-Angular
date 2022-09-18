@@ -1,23 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import * as card from "../data/card.json";
+import * as multi from "../data/multi.json";
+
 
 @Component({
-  selector: 'app-card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css']
+  selector: 'app-multi',
+  templateUrl: './multi.component.html',
+  styleUrls: ['./multi.component.css']
 })
-export class CardComponent implements OnInit {
+export class MultiComponent implements OnInit {
 
   constructor() { }
+  mycolor='red'
+
+  ngOnInit(): void {
+  }
   onOrder()
   {
     alert("Fill in the details!!");
   }
 
-  ngOnInit(): void {
-  }
-
-  card:any=(card as any).default;
+  multi:any=(multi as any).default;
 
   productDetail=false;
   //Event to perform the toggle effect

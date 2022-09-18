@@ -1,23 +1,24 @@
 import { Component, OnInit } from '@angular/core';
-import * as card from "../data/card.json";
+import * as blue from "../data/blue.json";
 
 @Component({
-  selector: 'app-card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css']
+  selector: 'app-blue',
+  templateUrl: './blue.component.html',
+  styleUrls: ['./blue.component.css']
 })
-export class CardComponent implements OnInit {
+export class BlueComponent implements OnInit {
 
   constructor() { }
+  mycolor='red'
+
+  ngOnInit(): void {
+  }
   onOrder()
   {
     alert("Fill in the details!!");
   }
 
-  ngOnInit(): void {
-  }
-
-  card:any=(card as any).default;
+  blue:any=(blue as any).default;
 
   productDetail=false;
   //Event to perform the toggle effect
@@ -37,4 +38,5 @@ export class CardComponent implements OnInit {
     }
     return content;
   }
+
 }

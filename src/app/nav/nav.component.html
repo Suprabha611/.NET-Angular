@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" routerLink="DREAMS">
         <img [src]="logo" alt="Dreams"></a>
       <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -11,13 +11,12 @@
             <a class="nav-link active" aria-current="page" routerLink="home">{{title}}</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Designs </a>
+            <a class="nav-link dropdown-toggle" routerLink="DREAMS" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Designs </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" routerLink="simple">Simple</a></li>
               <li><a class="dropdown-item" routerLink="led">LED</a></li>
-              <li><a class="dropdown-item" routerLink="bluefea">Blue Feathers</a></li>
-              <li><a class="dropdown-item" routerLink="cful">Colourful</a></li>
-              <li><a class="dropdown-item" routerLink="mull">Multi-Layered</a></li>
+              <li><a class="dropdown-item" routerLink="blue">Blue Feathers</a></li>
+              <li><a class="dropdown-item" routerLink="multi">Multi-Layered</a></li>
               <li><a class="dropdown-item" routerLink="craft">Hand Crafted</a></li>
               <li><a class="dropdown-item" routerLink="evil">Evil Eye</a></li>
             </ul>
@@ -28,14 +27,14 @@
               <li><a class="dropdown-item" href="small">Small - 100 to 300</a></li>
               <li><a class="dropdown-item" href="mull">Multi-Layered - 300 to 1000</a></li>
               <li><a class="dropdown-item" href="large">Large - 500 to 1500 </a></li>
+              <li><a class="dropdown-item" href="large">Special - 500 to 4500 </a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" routerLink="DREAMS" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ocassions </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="house">Home</a></li>
-              <li><a class="dropdown-item" href="gift">Birthday Gifts</a></li>
-              <li><a class="dropdown-item" href="anni">Anniversery</a></li>
+              <li><a class="dropdown-item" href="gift">Gifts</a></li>
               <li><a class="dropdown-item" href="req">Special Edition Request</a></li>
             </ul>
           </li>

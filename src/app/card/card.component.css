@@ -5,7 +5,7 @@
     border-style: solid;
 }
 .card:hover{
-    opacity: 1.1;
+    opacity: 0.9;
 }
 .card-title,
 .card-text{
@@ -21,9 +21,5 @@ marquee{
   background-image: linear-gradient(to bottom right, rgb(36, 36, 202), #00ff08);
 }
 div.polaroid {
-    width: 295px;
-    margin-left: 17px;
-    height: 646px;
-    box-shadow: 0 2px 9px rgb(167, 167, 234);
     text-align: center;
 }

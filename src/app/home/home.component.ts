@@ -10,10 +10,6 @@ import { ActivatedRoute } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   constructor (private route: ActivatedRoute) { }
-
-   //TWO-WAY BINDING
-  name="Dreams"
-
   
   prod:products=new products();
 

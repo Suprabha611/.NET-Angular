@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
   constructor() { }
   //STRING INTERPOLATION
-  title = 'Dreams';
+  title = 'DREAMS';
   //PROPERTY BINDING
   public logo="https://img.freepik.com/premium-vector/dream-indian-catcher_118813-1238.jpg?w=2000.jpg";
 

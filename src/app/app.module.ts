@@ -13,6 +13,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SimpleComponent } from './simple/simple.component';
 import { ContentComponent } from './content/content.component';
 import { ConchildComponent } from './content/conchild/conchild.component';
+import { LedComponent } from './led/led.component';
+import { BlueComponent } from './blue/blue.component';
+import { MultiComponent } from './multi/multi.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { ConchildComponent } from './content/conchild/conchild.component';
     HomeComponent,
     SimpleComponent,
     ContentComponent,
-    ConchildComponent
+    ConchildComponent,
+    LedComponent,
+    BlueComponent,
+    MultiComponent
   ],
   imports: [
     BrowserModule,

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -22,6 +23,8 @@ import { SmallComponent } from './small/small.component';
 import { MediumComponent } from './medium/medium.component';
 import { GiftsComponent } from './gifts/gifts.component';
 import { RequestComponent } from './request/request.component';
+import { LoginComponent } from './login/login.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -42,11 +45,14 @@ import { RequestComponent } from './request/request.component';
     MediumComponent,
     GiftsComponent,
     RequestComponent,
+    LoginComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     MatButtonModule
   ],

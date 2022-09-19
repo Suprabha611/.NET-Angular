@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
 import { CardComponent } from './card/card.component';
+import { LoginComponent } from './login/login.component';
 import { NavComponent } from './nav/nav.component';
 import { SimpleComponent } from './simple/simple.component';
 import { LedComponent } from './led/led.component';
@@ -31,6 +32,7 @@ const routes: Routes = [
   {path:'special', component:SpecialComponent},
   {path:'gifts', component:GiftsComponent},
   {path:'request', component:RequestComponent},
+  {path: 'login', component:LoginComponent},
   {path:'home',component:HomeComponent},
   {path:'**', redirectTo:'/home', pathMatch:'full'}
 ];

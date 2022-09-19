@@ -1,0 +1,57 @@
+<br> <br> <br>
+<h1 style="text-align:center;"><b>Register/Login</b></h1>
+<!--Property Binding-->
+<form [formGroup]="myForm" novalidate>
+    <div class="form-group">
+        <label> <b>User Name:</b></label>
+        <input type="text" class="form-control" placeholder="Enter username" formControlName="username"
+            [ngClass]="{'is-invalid':username.errors && (username.touched||username.dirty),'is-valid':username.valid}">
+        <!--Error message for username-->
+        <span class="invalid-feedback">
+            <strong *ngIf="username.errors?.required">Name is Required</strong>
+            <strong *ngIf="username.errors?.pattern">Only Alphabets allowed(A-Z and a-z)</strong>
+            <strong *ngIf="username.errors?.minlength">Min length is 8 characters</strong>
+            <strong *ngIf="username.errors?.maxlength">Max length is 15 characters</strong>
+        </span>
+    </div>
+    <div class="form-group">
+        <label> <b>E-mail: </b></label>
+        <input type="email" class="form-control" placeholder="Enter email" formControlName="useremail"
+            [ngClass]="{'is-invalid':useremail.errors && (useremail.touched||useremail.dirty),'is-valid':useremail.valid}">
+        <!--Error message for username-->
+        <span class="invalid-feedback">
+            <strong *ngIf="useremail.errors?.required">Email is Required</strong>
+        </span>
+    </div>
+    <div class="form-group">
+        <label> <b>Password: </b></label>
+        <input type="password" class="form-control" placeholder="Enter Password" formControlName="password"
+            [ngClass]="{'is-invalid':password.errors && (password.touched||password.dirty),'is-valid':password.valid}">
+        <!--Error message for username-->
+        <span class="invalid-feedback">
+            <strong *ngIf="password.errors?.required">Password is Required</strong>
+            <strong *ngIf="password.errors?.pattern">Pattern does not match</strong>
+                <strong *ngIf="password.errors?.pattern">Only (A-Z and a-z and 0-9) allowed</strong>
+                <strong *ngIf="password.errors?.minlength">Min length is 8 characters</strong>
+                <strong *ngIf="password.errors?.maxlength">Max length is 15 characters</strong>
+        </span>
+    </div>
+    <div class="form-group">
+        <label><b>Mobile Number:</b></label>
+        <input type="text" class="form-control" placeholder="XXXXXXXXXX" formControlName="mobile"
+            [ngClass]="{'is-invalid':mobile.errors && (mobile.touched||mobile.dirty),'is-valid':mobile.valid}">
+        <!--Error message for mobile-->
+        <span class="invalid-feedback">
+            <strong *ngIf="mobile.errors?.required">Mobile number is Required</strong>
+        </span>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary" (click)="onSubmit()">SUBMIT</button>
+</form>
+<br>
+<br>
+<!--Retrieve the details from the form and render them using the json pipe
+<div>
+    <h3>You have entered: </h3>
+    <pre>{{myForm.value | json}}</pre>
+</div>-->

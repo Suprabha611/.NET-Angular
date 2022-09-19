@@ -15,5 +15,9 @@ p{
     text-align: center;
 }
 button:hover{
-    color: aqua;
+    color:blue;
+    background-color:green;
+}
+button{
+    border-radius: 4px;
 }

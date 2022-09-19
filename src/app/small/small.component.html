@@ -12,10 +12,12 @@
         <div>
           {{s.pname | uppercase}}
           <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
-        </div> <br>
+        </div>
         <div [hidden]="productDetail">
           <b>Price: {{s.price | currency:'INR'}}</b> <br>
-          <b>Status :</b><p [ngStyle]="{color:mycolor}"> <b>{{s.pstatus}}</b></p>
+          <p [ngStyle]="{color:mycolor1}"> <b>{{s.pstatus1}}</b></p>
+          <p [ngStyle]="{color:mycolor2}"> <b>{{s.pstatus2}}</b></p>
+          <p [ngStyle]="{color:mycolor3}"> <b>{{s.pstatus3}}</b></p>
           <app-content></app-content>
           <div class="card-text">
             <button type="button" id="grad" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>

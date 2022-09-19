@@ -9,7 +9,9 @@ import * as large from "../data/large.json";
 export class LargeComponent implements OnInit {
 
   constructor() { }
-  mycolor='red'
+  mycolor1='red'
+  mycolor2='darkorange'
+  mycolor3='green'
 
   ngOnInit(): void {
   }

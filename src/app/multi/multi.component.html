@@ -10,14 +10,13 @@
       <div class="card-body">
         <!--Interpolation Binding-->
         <div>
-          {{m.pname | uppercase}}
           <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
-        </div> <br>
+        </div>
         <div [hidden]="productDetail">
-          {{m.pdescription}}
-          <br> <br>
           <b>Price: {{m.price | currency:'INR'}}</b> <br>
-          <b>Status :</b><p [ngStyle]="{color:mycolor}"> <b>{{m.pstatus}}</b></p>
+          <p [ngStyle]="{color:mycolor1}"> <b>{{m.pstatus1}}</b></p>
+          <p [ngStyle]="{color:mycolor2}"> <b>{{m.pstatus2}}</b></p>
+          <p [ngStyle]="{color:mycolor3}"> <b>{{m.pstatus3}}</b></p>
           <app-content></app-content>
           <div class="card-text">
             <button type="button" id="grad" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>

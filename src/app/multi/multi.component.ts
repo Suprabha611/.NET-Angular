@@ -10,7 +10,9 @@ import * as multi from "../data/multi.json";
 export class MultiComponent implements OnInit {
 
   constructor() { }
-  mycolor='red'
+  mycolor1='red'
+  mycolor2='darkorange'
+  mycolor3='green'
 
   ngOnInit(): void {
   }

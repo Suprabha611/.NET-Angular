@@ -20,6 +20,8 @@ import { SpecialComponent } from './special/special.component';
 import { LargeComponent } from './large/large.component';
 import { SmallComponent } from './small/small.component';
 import { MediumComponent } from './medium/medium.component';
+import { GiftsComponent } from './gifts/gifts.component';
+import { RequestComponent } from './request/request.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import { MediumComponent } from './medium/medium.component';
     LargeComponent,
     SmallComponent,
     MediumComponent,
+    GiftsComponent,
+    RequestComponent,
   ],
   imports: [
     BrowserModule,

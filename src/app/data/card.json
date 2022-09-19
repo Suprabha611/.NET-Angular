@@ -4,6 +4,7 @@
         "pname":"Led Crafted",
         "price": "700",
         "img":"assets/img4.jpg",
+        "pstatus3": "In stock",
         "pdescription": "Light your room!!"
     },
     {
@@ -11,6 +12,7 @@
         "pname":"Multi-Layered",
         "price": "900",
         "img": "assets/img3.jpg",
+        "pstatus3": "In stock",
         "pdescription": "Wonderful as gaint wheel!!"
     },
     {
@@ -18,6 +20,7 @@
         "pname":"Special Designs",
         "price": "1255",
         "img": "assets/img2.jpg",
+        "pstatus2": "Few Left!!",
         "pdescription": "Beautiful as Butterfly!!"
     },
     {
@@ -25,6 +28,7 @@
         "pname":"Peacock Feathered",
         "price": "2475",
         "img": "assets/img5.jpg",
+        "pstatus2": "Few Left!!",
         "pdescription": "Noble as a Peacock!" 
     },
     {
@@ -32,6 +36,7 @@
         "pname":"Spiritual",
         "price": "1780",
         "img":"assets/img11.jpeg",
+        "pstatus3": "In stock",
         "pdescription": "Holy!!"
     },
     {
@@ -39,6 +44,7 @@
         "pname":"Blue Coloured",
         "price": "1350",
         "img": "assets/img1.jpg",
+        "pstatus3": "In stock",
         "pdescription": "Who doesn't like blue??"
     },
     {
@@ -46,6 +52,7 @@
         "pname":"Evil Eye",
         "price": "2700",
         "img": "assets/img9.jpg",
+        "pstatus3": "In stock",
         "pdescription": "Evil eyes off!!"
     },
     {
@@ -53,6 +60,7 @@
         "pname":"Moon Shaped",
         "price": "1400",
         "img": "assets/img10.jpg",
+        "pstatus3": "In stock",
         "pdescription": "Magic Moon!!"
     }
 ]

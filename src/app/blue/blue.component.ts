@@ -9,7 +9,9 @@ import * as blue from "../data/blue.json";
 export class BlueComponent implements OnInit {
 
   constructor() { }
-  mycolor='red'
+  mycolor1='red'
+  mycolor2='darkorange'
+  mycolor3='green'
 
   ngOnInit(): void {
   }

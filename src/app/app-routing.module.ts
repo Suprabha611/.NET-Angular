@@ -14,6 +14,8 @@ import { SmallComponent } from './small/small.component';
 import { MediumComponent } from './medium/medium.component';
 import { LargeComponent } from './large/large.component';
 import { SpecialComponent } from './special/special.component';
+import { GiftsComponent } from './gifts/gifts.component';
+import { RequestComponent } from './request/request.component';
 
 //Configure the routing path for the above imported components
 const routes: Routes = [
@@ -23,10 +25,12 @@ const routes: Routes = [
   {path:'led', component:LedComponent},
   {path:'blue', component:BlueComponent},
   {path:'multi', component:MultiComponent},
-  {path: 'small', component:SmallComponent},
-  {path: 'medium', component:MediumComponent},
+  {path:'small', component:SmallComponent},
+  {path:'medium', component:MediumComponent},
   {path:'large', component: LargeComponent},
   {path:'special', component:SpecialComponent},
+  {path:'gifts', component:GiftsComponent},
+  {path:'request', component:RequestComponent},
   {path:'home',component:HomeComponent},
   {path:'**', redirectTo:'/home', pathMatch:'full'}
 ];

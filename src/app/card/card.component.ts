@@ -16,6 +16,9 @@ export class CardComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  mycolor1='red'
+  mycolor2='darkorange'
+  mycolor3='green'
 
   card:any=(card as any).default;
 

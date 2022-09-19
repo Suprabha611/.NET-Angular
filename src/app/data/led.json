@@ -2,56 +2,56 @@
     {
         "pid":"01",
         "price": "410",
-        "pstatus": "In Stock",
+        "pstatus3": "In Stock",
         "img":"https://m.media-amazon.com/images/I/71VmXQaeV+S._AC_SL1500_.jpg",
         "pdescription": "Half Moon!!"
     },
     {
         "pid":"02",
         "price": "600",
-        "pstatus": "In Stock",
+        "pstatus2": "Few Left!!",
         "img": "https://i5.walmartimages.com/asr/ae0db410-999f-46a3-bc54-76495211b528.a850c68d243f46b31b7d46a9bae9aa68.jpeg?odnHeight=580&odnWidth=580&odnBg=FFFFFF",
         "pdescription": "Cute!!"
     },
     {
         "pid":"03",
         "price": "350",
-        "pstatus": "In Stock",
+        "pstatus3": "In Stock",
         "img": "https://wudbox.in/wp-content/uploads/2020/10/1-22.jpg",
         "pdescription": "Multi-Beauty"
     },
     {
         "pid":"04",
         "price": "310",
-        "pstatus": "In Stock",
+        "pstatus3": "In Stock",
         "img": "https://i5.walmartimages.com/asr/b9a0483f-6a5e-41da-ad04-3770d9ae5b16_1.205c53073d37ed15830ea679ebbedc13.jpeg",
         "pdescription": "Multi-Light" 
     },
     {
         "pid":"05",
         "price": "650",
-        "pstatus": "Out of Stock!!",
+        "pstatus2": "Few Left!!",
         "img":"http://sc04.alicdn.com/kf/H20f96c47f4ea476cb281ade3959d5ad3F.jpg",
         "pdescription": "Hang like a chime"
     },
     {
         "pid":"06",
         "price": "700",
-        "pstatus": "Few Left!",
+        "pstatus2": "Few Left!!",
         "img": "https://i.pinimg.com/736x/3c/00/ec/3c00ec16c5d74c5f4927f78e99308087.jpg",
         "pdescription": "Like a Wind Chime!!"
     },
     {
         "pid":"07",
         "price": "370",
-        "pstatus": "In Stock",
+        "pstatus3": "In Stock",
         "img": "https://m.media-amazon.com/images/I/41pZ6La38BL._AC_.jpg",
         "pdescription": "Cute One!!"
     },
     {
         "pid":"08",
         "price": "570",
-        "pstatus": "Few Left!",
+        "pstatus2": "Few Left!!",
         "img": "https://i.pinimg.com/originals/f9/54/35/f954351b87a594857b06ec5150b21647.jpg",
         "pdescription": "Star Beauty"
     }

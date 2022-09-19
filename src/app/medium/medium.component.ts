@@ -9,7 +9,9 @@ import * as medium from "../data/meduim.json";
 export class MediumComponent implements OnInit {
 
   constructor() { }
-  mycolor='red'
+  mycolor1='red'
+  mycolor2='darkorange'
+  mycolor3='green'
 
   ngOnInit(): void {
   }

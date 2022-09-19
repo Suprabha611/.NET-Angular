@@ -10,7 +10,10 @@ export class SmallComponent implements OnInit {
 
   constructor() { }
 
-  mycolor='red'
+  mycolor1='red'
+  mycolor2='darkorange'
+  mycolor3='green'
+  
   ngOnInit(): void {
   }
   small:any=(small as any).default;

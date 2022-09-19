@@ -1,25 +1,23 @@
-import { Component, Input, OnInit } from '@angular/core';
-import * as simple from "../data/simple.json";
+import { Component, OnInit } from '@angular/core';
+import * as gifts from "../data/gifts.json";
 
 @Component({
-  selector: 'app-simple',
-  templateUrl: './simple.component.html',
-  styleUrls: ['./simple.component.css']
+  selector: 'app-gifts',
+  templateUrl: './gifts.component.html',
+  styleUrls: ['./gifts.component.css']
 })
-export class SimpleComponent implements OnInit {
+export class GiftsComponent implements OnInit {
 
   constructor() { }
-  
-  mycolor='green'
 
-  onOrder()
-  {
-    alert("Fill in the details!!");
-  }
+  mycolor1='red'
+  mycolor2='darkorange'
+  mycolor3='green'
 
   ngOnInit(): void {
   }
-  simp:any=(simple as any).default;
+
+  gifts:any=(gifts as any).default;
 
   productDetail=false;
   //Event to perform the toggle effect
@@ -39,4 +37,5 @@ export class SimpleComponent implements OnInit {
     }
     return content;
   }
+
 }

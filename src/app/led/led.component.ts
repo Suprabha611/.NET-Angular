@@ -12,7 +12,9 @@ export class LedComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  mycolor='red'
+  mycolor1='red'
+  mycolor2='darkorange'
+  mycolor3='green'
 
   onOrder()
   {

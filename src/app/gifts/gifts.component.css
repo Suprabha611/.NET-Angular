@@ -1,0 +1,28 @@
+marquee{
+    text-shadow:2px 3px 3px rgba(10, 70, 138, 0.875);
+    color:black;
+    font-size: 30px;
+}
+.card{
+    border-radius: 2px;
+    border-color:black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-style: solid;
+}
+.card:hover{
+    opacity: 0.9;
+}
+
+img{
+    margin-top:6px;
+    margin-bottom:7px;
+    border-radius:3px;
+}
+#grad{
+    background-color:indigo;
+  background-image: linear-gradient(to bottom right,indigo, #a91595);
+}
+div.polaroid {
+    text-align: center;
+}

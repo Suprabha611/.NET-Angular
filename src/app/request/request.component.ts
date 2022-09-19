@@ -1,25 +1,23 @@
-import { Component, Input, OnInit } from '@angular/core';
-import * as simple from "../data/simple.json";
+import { Component, OnInit } from '@angular/core';
+import * as request from "../data/request.json";
 
 @Component({
-  selector: 'app-simple',
-  templateUrl: './simple.component.html',
-  styleUrls: ['./simple.component.css']
+  selector: 'app-request',
+  templateUrl: './request.component.html',
+  styleUrls: ['./request.component.css']
 })
-export class SimpleComponent implements OnInit {
+export class RequestComponent implements OnInit {
 
   constructor() { }
-  
-  mycolor='green'
 
-  onOrder()
-  {
-    alert("Fill in the details!!");
-  }
+  mycolor1='red'
+  mycolor2='darkorange'
+  mycolor3='green'
 
   ngOnInit(): void {
   }
-  simp:any=(simple as any).default;
+
+  req:any=(request as any).default;
 
   productDetail=false;
   //Event to perform the toggle effect

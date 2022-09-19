@@ -15,6 +15,9 @@
           {{c.pdescription}}
           <br> <br>
           <b>Price: {{c.price | currency:'INR'}}</b>
+          <p [ngStyle]="{color:mycolor1}"> <b>{{c.pstatus1}}</b></p>
+          <p [ngStyle]="{color:mycolor2}"> <b>{{c.pstatus2}}</b></p>
+          <p [ngStyle]="{color:mycolor3}"> <b>{{c.pstatus3}}</b></p>
           <app-content></app-content>
           <div class="card-text">
             <button type="button" class="btn btn-primary" id="grad" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>

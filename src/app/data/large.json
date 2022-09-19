@@ -3,53 +3,53 @@
         "pid":"01",
         "pname":"Colourful",
         "price": "900",
-        "pstatus": "In Stock",
+        "pstatus3": "In Stock",
         "img":"https://wudbox.in/wp-content/uploads/2020/10/1-21.jpg"
     },
     {
         "pid":"02",
         "pname":"White Coloured",
         "price": "1290",
-        "pstatus": "In Stock",
+        "pstatus3": "In Stock",
         "img": "https://m.media-amazon.com/images/I/81Z4Vq5tTxL.jpg"
     },
     {
         "pid":"03",
         "pname":"Colourful",
         "price": "1040",
-        "pstatus": "In Stock",
+        "pstatus3": "In Stock",
         "img": "https://cdn.shopify.com/s/files/1/0126/8901/4874/products/WhatsAppImage2020-12-14at8.07.49PM_00c958d9-138c-4500-a26c-866582b225d7_360x.jpg?v=1624867313"
     },
     {
         "pid":"04",
         "pname":"Simple & Elegant",
         "price": "2275",
-        "pstatus": "In Stock",
+        "pstatus2": "Few Left!!",
         "img": "https://cdn.shopify.com/s/files/1/0614/0343/1082/products/il_794xN.3338982060_23gr_1400x.jpg?v=1647958235"
     },
     {
         "pid":"05",
         "pname":"Simple & Elegant",
         "price": "1910",
-        "pstatus": "In Stock",
+        "pstatus3": "In Stock",
         "img":"https://cdn.shopify.com/s/files/1/0590/6844/8974/products/large-bohemian-dreamcatcher_480x480.jpg?v=1628430555"
     },
     {
         "pid":"06",
         "price": "3150",
-        "pstatus": "In Stock",
+        "pstatus1": "Out of Stock!!",
         "img": "https://i.ebayimg.com/images/g/U8MAAOSwhRhiLqP7/s-l500.jpg"
     },
     {
         "pid":"07",
         "price": "1230",
-        "pstatus": "In Stock",
+        "pstatus3": "In Stock",
         "img": "https://canary.contestimg.wish.com/api/webimage/5f3ce7902ea6e33db3053c8b-large.jpg?cache_buster=575c319c3c48f96347b144067318e52a"
     },
     {
         "pid":"08",
         "price": "1450",
-        "pstatus": "Few Left!",
+        "pstatus2": "Few Left!!",
         "img": "https://m.media-amazon.com/images/I/7149JhreY4L._AC_SL1000_.jpg"
     }
 ]

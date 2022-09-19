@@ -15,15 +15,13 @@ marquee{
 }
 
 img{
-    height:100px;
-    width: 100px;
     margin-top:6px;
     margin-bottom:7px;
     border-radius:3px;
 }
 #grad{
-    background-color:coral;
-  background-image: linear-gradient(to bottom right, coral, #2615a9);
+    background-color:gold;
+  background-image: linear-gradient(to bottom right, gold, #15a92e);
 }
 div.polaroid {
     text-align: center;

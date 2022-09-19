@@ -30,14 +30,14 @@
     {
         "pid":"05",
         "price": "650",
-        "pstatus": "In Stock",
+        "pstatus": "Out of Stock!!",
         "img":"http://sc04.alicdn.com/kf/H20f96c47f4ea476cb281ade3959d5ad3F.jpg",
         "pdescription": "Hang like a chime"
     },
     {
         "pid":"06",
         "price": "700",
-        "pstatus": "In Stock",
+        "pstatus": "Few Left!",
         "img": "https://i.pinimg.com/736x/3c/00/ec/3c00ec16c5d74c5f4927f78e99308087.jpg",
         "pdescription": "Like a Wind Chime!!"
     },

@@ -1,66 +1,50 @@
 [
     {
         "pid":"01",
-        "pname":"Colourful",
-        "price": "300",
+        "price": "890",
         "pstatus": "In Stock",
-        "img":"https://static-01.daraz.com.bd/p/f2ea6593e0ea78a8216a48bfb44f995b.jpg",
-        "pdescription": "You are in the right place. Buy these for home or to gift someone."
+        "img":"https://static-01.daraz.com.bd/p/f2ea6593e0ea78a8216a48bfb44f995b.jpg"
     },
     {
         "pid":"02",
-        "pname":"White Coloured",
-        "price": "290",
+        "price": "570",
         "pstatus": "In Stock",
-        "img": "https://wudbox.in/wp-content/uploads/2020/10/1-21.jpg",
-        "pdescription": "You are in the right place. Buy these as it resembles peace !!"
+        "img": "https://wudbox.in/wp-content/uploads/2020/10/1-21.jpg"
     },
     {
         "pid":"03",
-        "pname":"Colourful",
-        "price": "300",
+        "price": "490",
         "pstatus": "In Stock",
-        "img": "https://m.media-amazon.com/images/I/51BtinCS2FL._SL1000_.jpg",
-        "pdescription": "You are in the right place. Buy these colourful ones!!"
+        "img": "https://m.media-amazon.com/images/I/819cq3895lL._AC_SY550_.jpg"
     },
     {
         "pid":"04",
-        "pname":"Simple & Elegant",
-        "price": "275",
+        "price": "890",
         "pstatus": "In Stock",
-        "img": "https://i.pinimg.com/originals/90/68/c5/9068c5d5b0feab0b18c9b5d34eef65a6.jpg",
-        "pdescription": "You are in the right place. Buy these elegant ones with beeds!!" 
+        "img": "http://sc04.alicdn.com/kf/H0dbb633f2d30492da2bcb5af309f3e9bk.jpg" 
     },
     {
         "pid":"05",
-        "pname":"Simple & Elegant",
-        "price": "210",
+        "price": "1690",
         "pstatus": "In Stock",
-        "img":"https://wallpaperaccess.com/full/3730926.jpg",
-        "pdescription": "You are in the right place. Buy these Simple and elegant ones!!"
+        "img":"https://glitzhandicraft.com/wp-content/uploads/2020/05/Deep-blue-dreamer-dream-catcher-1.jpg"
     },
     {
         "pid":"06",
-        "pname":"Small & Simple",
-        "price": "150",
+        "price": "970",
         "pstatus": "In Stock",
-        "img": "https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701486240.jpg",
-        "pdescription": "You are in the right place. Buy these and hang it as a keychain!!"
+        "img": "https://i.pinimg.com/originals/96/67/22/96672202df24ef5745b4e05a54e45fb0.jpg"
     },
     {
         "pid":"07",
-        "pname":"Small & Simple",
-        "price": "230",
+        "price": "799",
         "pstatus": "In Stock",
-        "img": "https://cutewallpaper.org/21/dream-catcher-backgrounds/Dreamcatcher-Wallpaper-Desktop-Kpop-Smokinwingsspartanburg.com.jpg",
-        "pdescription": "You are in the right place. Buy these and hang it as a keychain!!"
+        "img": "http://cdn.shopify.com/s/files/1/0541/1661/4325/products/200219900731_401844.jpg?v=1628094861"
     },
     {
         "pid":"08",
-        "pname":"White Coloured",
-        "price": "350",
+        "price": "1050",
         "pstatus": "Few Left!",
-        "img": "https://i.pinimg.com/originals/3b/ae/c0/3baec09313c8e279be55e903f1ac6411.jpg",
-        "pdescription": "White as a Swan!"
+        "img": "https://i0.wp.com/i.pinimg.com/originals/a1/2a/e8/a12ae85dc1ae33085360c81d80c4aba9.jpg?resize=160,120"
     }
 ]

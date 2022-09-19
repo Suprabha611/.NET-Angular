@@ -16,6 +16,10 @@ import { ConchildComponent } from './content/conchild/conchild.component';
 import { LedComponent } from './led/led.component';
 import { BlueComponent } from './blue/blue.component';
 import { MultiComponent } from './multi/multi.component';
+import { SpecialComponent } from './special/special.component';
+import { LargeComponent } from './large/large.component';
+import { SmallComponent } from './small/small.component';
+import { MediumComponent } from './medium/medium.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { MultiComponent } from './multi/multi.component';
     ConchildComponent,
     LedComponent,
     BlueComponent,
-    MultiComponent
+    MultiComponent,
+    SpecialComponent,
+    LargeComponent,
+    SmallComponent,
+    MediumComponent,
   ],
   imports: [
     BrowserModule,

@@ -20,8 +20,8 @@ img{
     border-radius:3px;
 }
 #grad{
-    background-color:blue;
-  background-image: linear-gradient(to bottom right, blue, black);
+    background-color:darkolivegreen;
+  background-image: linear-gradient(to bottom right, darkolivegreen, black);
 }
 div.polaroid {
     text-align: center;

@@ -2,20 +2,20 @@
 <marquee style="font-size:x-large; text-align: center;">BUY NOW!!! <br>MOSTLY BROUGHT!!!</marquee>
 <br> <br>
 
-<div *ngFor="let b of blue" style="float:left;" class="polaroid">
+<div *ngFor="let s of small" style="float:left;" class="polaroid">
   <div class="row">
     <div class="card col-sm-3" style="width: 18rem; margin-left:40px; margin-bottom: 50px;">
       <!--Property Binding-->
-      <img [src]="b.img" class="card-img-top" alt="..." style="height:270px; width:220px; margin-left:25px; margin-top: 20px;">
+      <img [src]="s.img" class="card-img-top" alt="..." style="height:270px; width:220px; margin-left:25px; margin-top: 20px;">
       <div class="card-body">
         <!--Interpolation Binding-->
         <div>
+          {{s.pname | uppercase}}
           <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
         </div> <br>
         <div [hidden]="productDetail">
-          <b>Price:
-          {{b.price | currency:'INR'}}</b> <br>
-          <b>Status :</b><p [ngStyle]="{color:mycolor}"> <b>{{b.pstatus}}</b></p>
+          <b>Price: {{s.price | currency:'INR'}}</b> <br>
+          <b>Status :</b><p [ngStyle]="{color:mycolor}"> <b>{{s.pstatus}}</b></p>
           <app-content></app-content>
           <div class="card-text">
             <button type="button" id="grad" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Order Now!! </button>

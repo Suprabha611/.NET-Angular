@@ -10,7 +10,19 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink="home">{{title}}</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="register">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="prod_details" *ngIf="auth">Product Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="cards" *ngIf="auth">All Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="deals" *ngIf="auth">Deals</a>
+          </li>
+          <li class="nav-item dropdown" *ngIf="auth">
             <a class="nav-link dropdown-toggle" routerLink="DREAMS" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Designs </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" routerLink="simple">Simple</a></li>
@@ -37,10 +49,6 @@
               <li><a class="dropdown-item" routerLink="request">Special Edition Request</a></li>
             </ul>
           </li>
-          <li> 
-            <button routerLink="login">Register!!</button>
-          </li>
-          <li class="nav-item" href="#"> Contact Us!!</li>
         </ul>
         <form class="d-flex">
           <input type="text" #productname placeholder="Enter product name" style="border-radius:2px; height: 40px;">&nbsp;
@@ -48,7 +56,8 @@
           <br>
           <!--PROPERTY BINDING-->
           <!--@Input(product) in search component is going to receive the value from productentered property from nav component-->
-          <app-search [product]="productentered"></app-search>
+          <app-search [product]="productentered"></app-search>  &nbsp;&nbsp;&nbsp;
+          <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;" routerLink="login" *ngIf="auth">Logout</a>
         </form>
       </div>
     </div>

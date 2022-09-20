@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-nav',
@@ -6,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  constructor() { }
+  constructor( private authService:UserService) { }
+  auth:boolean=false;
   //STRING INTERPOLATION
   title = 'DREAMS';
   //PROPERTY BINDING
@@ -25,6 +27,14 @@ export class NavComponent implements OnInit {
     this.productentered=product_name; //Dream Catcher
     console.log(product_name)
   }
+    //Auth Service
   ngOnInit(): void {
+    this.authService.authSubject.subscribe(
+      data => 
+      {
+        console.log('auth inside nav component: ' + data);
+        this.auth = data;
+      }
+    );
   }
 }

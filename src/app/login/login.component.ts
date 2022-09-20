@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
+import { FormGroup, Validators, FormBuilder } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
+import { error } from '@angular/compiler/src/util';
+import { Router } from '@angular/router';
+import { environment } from 'src/environments/environment';
+import { UserService } from '../user.service';
+
 
 @Component({
   selector: 'app-login',
@@ -7,28 +13,45 @@ import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms'
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  public loginForm!: FormGroup
+  //Authenticate user details from userapi
+  userapi = environment.userapi;
 
-  constructor() { }
-  myForm: FormGroup | any;
-  username: FormControl | any;
-  useremail: FormControl | any;
-  password: FormControl | any;
-  mobile: FormControl | any;
+  submitted = false;
+  get f() { return this.loginForm.controls; }
+  //constructor injection
+  constructor(private formBuilder: FormBuilder, private http: HttpClient, private router: Router,
+    private userService: UserService) { }
 
   ngOnInit(): void {
-    this.username = new FormControl('', [Validators.required, Validators.pattern('[A-Za-z]*'), Validators.minLength(8), Validators.maxLength(15)]);
-    this.useremail = new FormControl('', [Validators.required]);
-    this.password = new FormControl('', [Validators.required, Validators.pattern('[A-Za-z0-9]*'), Validators.minLength(6), Validators.maxLength(14)]);
-    this.mobile = new FormControl('', [Validators.required, Validators.pattern('[0-9]*')]);
-    this.myForm = new FormGroup({
-      'username': this.username,
-      'useremail': this.useremail,
-      'password': this.password,
-      'mobile': this.mobile
-    })
+    this.userService.validateAuth(false); //data parameter in your userservice
+    this.loginForm = this.formBuilder.group({
+      useremail: ['', [Validators.required, Validators.email, Validators.pattern('^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$')]],
+      password: ['', [Validators.required, Validators.minLength(6)]]
+    });
   }
-  onSubmit()
-  {
+  login() {
+    this.submitted = true;
+    if (this.loginForm.invalid) {
+      return;
+    }
+    this.http.get<any>(this.userapi)
+      .subscribe(res => {
+        const user = res.find((a: any) => {
+          return a.useremail === this.loginForm.value.useremail && a.password === this.loginForm.value.password
+        });
+        if (user) {
+          alert("login successful!!");
+          this.loginForm.reset();
+          this.router.navigate(['home'])
+          this.userService.validateAuth(true);
+        } else {
+          alert("user not found !!");
+          this.userService.validateAuth(false);
+        }
+      })
+  }
+  onSubmit() {
     alert("You have entered the Dreamland!!");
   }
 }

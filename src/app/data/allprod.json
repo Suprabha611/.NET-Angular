@@ -1,5 +1,4 @@
-{
-"posts":[
+[
     {
         "pid": "01",
         "pname": "Colourful",
@@ -525,9 +524,4 @@
         "img": "https://i.pinimg.com/originals/54/31/d7/5431d715ddcb3cd51c6dcd0cf73e60ef.jpg",
         "pdescription": "Star Beauty"
     }
-],
-"comments": [],
-  "profile": {
-    "name": "typicode"
-  }
-} 
+]

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -25,6 +26,9 @@ import { GiftsComponent } from './gifts/gifts.component';
 import { RequestComponent } from './request/request.component';
 import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
+import { AllprodComponent } from './allprod/allprod.component';
+import { RegisterComponent } from './register/register.component';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +50,10 @@ import { ContactComponent } from './contact/contact.component';
     GiftsComponent,
     RequestComponent,
     LoginComponent,
-    ContactComponent
+    ContactComponent,
+    AllprodComponent,
+    RegisterComponent,
+    ProductdetailsComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +61,8 @@ import { ContactComponent } from './contact/contact.component';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

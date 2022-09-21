@@ -9,25 +9,25 @@ export class ProductapiService {
 
   constructor( private http:HttpClient) { }
   postProducts(data:any){
-    return this.http.post<any>("", data).pipe(map((res:any)=>{
+    return this.http.post<any>("http://localhost:3000/posts", data).pipe(map((res:any)=>{
       return res;
     }))
   }
 
   getProductDetails(){
-    return this.http.get<any>("").pipe(map((res:any)=>{
+    return this.http.get<any>("http://localhost:3000/posts").pipe(map((res:any)=>{
       return res;
     }))
   }
 
-  updateProducts(data:any, id:number){
-    return this.http.put<any>(""+id, data).pipe(map((res:any)=>{
+  updateProducts(data:any, pid:number){
+    return this.http.put<any>("http://localhost:3000/posts"+pid, data).pipe(map((res:any)=>{
       return res;
     }))
   }
 
-  deleteProducts(id:number){
-    return this.http.delete<any>(""+id).pipe(map((res:any)=>{
+  deleteProducts(pid:number){
+    return this.http.delete<any>("http://localhost:3000/posts"+pid).pipe(map((res:any)=>{
       return res;
     }))
   }

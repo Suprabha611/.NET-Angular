@@ -19,7 +19,7 @@ export class AuthGuard implements CanActivate {
        var isAuthenticated= this.authService.authSubject.subscribe(
         data => 
         {
-          console.log('next subscribed value: ' + data);
+          console.log('next subscribed value:' + data);
           this.isAuthenticated = data;
         })
  
@@ -28,7 +28,7 @@ export class AuthGuard implements CanActivate {
           this.router.navigate(['/login']);
           return false;
       }else {
-        console.log('next subscribed value:t3etg ' + this.isAuthenticated);
+        console.log('next subscribed value:t3etg' + this.isAuthenticated);
         //this.router.navigate(['/Home']);
         return true;
       }  

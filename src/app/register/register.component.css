@@ -1,26 +1,19 @@
 input {
-    width: 70%;
-    margin-left: 95px;
-}
-label {
-    margin-left:90px;
+    width: 80%;
+    margin-left: 70px;
 }
 form {
     padding: 15px;
-    margin-left: 400px;
-    width: 40%;
-    border-style: inset;
+    margin-left: 350px;
+    width: 50%;
+    border-style:double;
     border-radius: 10px;
     border-color:black;
     background-image:url(https://media.istockphoto.com/photos/dreamcatcher-on-a-forest-at-sunset-picture-id462156083?b=1&k=20&m=462156083&s=612x612&w=0&h=7LucjuarZ2NtAmxFBAFuH1NEbUmviy2wVAs2y5x8Yec=);
 }
-form:hover {
-    transform:scale(1.05);
-}
 button {
-    margin-left: 200px;
+    margin-left: 250px;
 }
 span {
-    width: 60%;
-    margin-left: 150px;
+    color:aliceblue;
 }

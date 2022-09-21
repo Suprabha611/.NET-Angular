@@ -29,6 +29,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AllprodComponent } from './allprod/allprod.component';
 import { RegisterComponent } from './register/register.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { CartItemsComponent } from './cart-items/cart-items.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
     AllprodComponent,
     RegisterComponent,
     ProductdetailsComponent,
+    CartItemsComponent
   ],
   imports: [
     BrowserModule,

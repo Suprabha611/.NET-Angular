@@ -8,10 +8,7 @@ import * as allprod from "../data/allprod.json";
 export class AllprodComponent implements OnInit {
 
   constructor() { }
-
   ngOnInit(): void {
   }
-
   all:any=(allprod as any).default;
-
 }

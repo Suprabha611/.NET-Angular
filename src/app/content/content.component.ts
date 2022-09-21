@@ -8,17 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class ContentComponent implements OnInit {
 
   constructor() { }
-  
-
   ngOnInit(): void {
   }
 
-  count:number=1;
-
+  count=1;
   //Receive the counterValue from conchild
 
   receiveValue($event:number){
     this.count=$event;
   }
-
 }

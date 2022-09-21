@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import {  FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
+import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-register',
@@ -23,7 +24,7 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
     this.registerForm = this.formBuilder.group({
-      username: ['', Validators.required, Validators.pattern('[A-Za-z]*'), Validators.minLength(6), Validators.maxLength(16)],
+      username: ['', Validators.required, Validators.pattern('[A-Za-z]*'), Validators.minLength(8), Validators.maxLength(15)],
       useremail: ['', Validators.required],
       password: ['', Validators.required, Validators.pattern('[A-Za-z0-9]*'), Validators.minLength(6), Validators.maxLength(14)],
       mobile: ['', Validators.required, Validators.pattern('[0-9]*')]
@@ -37,7 +38,18 @@ export class RegisterComponent implements OnInit {
     }
     this.http.post<any>(this.userurl, this.registerForm.value)
       .subscribe(res => {
-        alert("signUp Successful");
+        const Toast = Swal.mixin({
+          toast: true,
+          position: 'top',
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+        })
+
+        Toast.fire({
+          icon: 'success',
+          title: 'Sign Up Successful!!'
+        })
         this.registerForm.reset();
         this.router.navigate(['login']);
       })

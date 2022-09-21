@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { ProductModel } from '../product-model';
 import { ProductapiService } from '../productapi.service';
+import { Router} from '@angular/router';
 
 @Component({
   selector: 'app-productdetails',
@@ -61,7 +62,7 @@ export class ProductdetailsComponent implements OnInit {
   }
 
   deleteProducts(product: any){
-    this.api.deleteProducts(product.id).subscribe(res=>{
+    this.api.deleteProducts(product.pid).subscribe(res=>{
       alert("The Product deleted!")
       this.getProducts();
     }), 
@@ -69,24 +70,22 @@ export class ProductdetailsComponent implements OnInit {
 
     })
   }
-
   onEdit(product: any){
     this.showAdd = false;
     this.showUpdate = true;
-    this.productModelObj.id = product.id;
+    this.productModelObj.pid = product.pid;
     this.formValue.controls['pname'].setValue(product.pname);
     this.formValue.controls['pdescription'].setValue(product.pdescription);
     this.formValue.controls['price'].setValue(product.price);
     this.formValue.controls['img'].setValue(product.img);
   }
-
   updateProductDetails(){
     this.productModelObj.pname = this.formValue.value.pname;
     this.productModelObj.pdescription = this.formValue.value.pdescription;
     this.productModelObj.price = this.formValue.value.price;
     this.productModelObj.img = this.formValue.value.img;
-    this.api.updateProducts(this.productModelObj, this.productModelObj.id).subscribe(res=>{
-      alert("The product updated!")
+    this.api.updateProducts(this.productModelObj, this.productModelObj.pid).subscribe(res=>{
+      alert("Product updated!")
 
       let ref = document.getElementById('cancel')
       ref?.click();

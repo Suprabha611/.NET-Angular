@@ -1,17 +1,17 @@
 <div class="mt-5">
     <div class="col-md-12 min-vh-100 d-flex flex-column">
-        <div class="login-form">
+        <div class="login-form"> 
+            <label style="margin-left:620px;"> <h1 style="font-weight: bolder;">SIGN UP!!</h1></label>
             <form class="mt-5" [formGroup]="registerForm" (ngSubmit)="submitHandler()">
-                <h2 class="text-center secondary ms-mb-m main-heading ng-binding">Signup!!</h2>
-                <br>
+                <br> <br>
                 <div class="form-group">
                     <input type="text" class="form-control" name="username" formControlName="username" placeholder="Enter Username">
-                    <label class="error ng-binding" *ngIf="submitted && f['username'].invalid">Name is required </label>
+                    <label class="error ng-binding" *ngIf="submitted && f['username'].invalid">Required </label>
                 </div>
                 <br>
                 <div class="form-group">
                     <input type="email" class="form-control" name="useremail" formControlName="useremail" placeholder="Enter email">
-                    <label class="error ng-binding" *ngIf="submitted && f['useremail'].invalid">Email is required </label>
+                    <label class="error ng-binding" *ngIf="submitted && f['useremail'].invalid">Required </label>
                     <label class="error ng-binding" *ngIf="submitted && f['useremail'].errors?.['useremail']">Must be a valid email address</label>
                 </div>
                 <br>
@@ -22,14 +22,14 @@
                 </div>
                 <br>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="mobile" formControlName="mobile" placeholder="Enter Mobile number">
-                    <label class="error ng-binding" *ngIf="submitted && f['mobile'].errors?.['required']">Mobile number is required</label>
+                    <input type="text" class="form-control" name="mobile" formControlName="mobile" placeholder="XXXXXXXXXX">
+                    <label class="error ng-binding" *ngIf="submitted && f['mobile'].errors?.['required']">Required</label>
                 </div>
                 <br>
-                <button type="submit" class="btn btn-warning">Register</button>
+                <button type="submit" class="btn btn-warning">Register!!</button>
                 <div class="text-center ms-mt-x ms-mb-m register-already-account" style="padding-top:30px">
                     <span class="ms-fs-12 ng-binding">Already have an account?
-                        <a class="secondary ng-binding" href="login"> Login! </a>
+                        <a class="secondary ng-binding" href="login"> Login!! </a>
                     </span>
                 </div>
             </form>

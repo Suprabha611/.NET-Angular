@@ -27,13 +27,11 @@ export class ProductdetailsComponent implements OnInit {
     })
     this.getProducts();
   }
-
   clickAddProduct(){
     this.formValue.reset();
     this.showAdd = true;
     this.showUpdate = false;
   }
-
   postProductDetails(){
     this.productModelObj.pname = this.formValue.value.pname;
     this.productModelObj.pdescription = this.formValue.value.pdescription;
@@ -52,7 +50,6 @@ export class ProductdetailsComponent implements OnInit {
       alert("Something went wrong. Please check again!")
     })
   }
-
   getProducts(){
     this.api.getProductDetails().subscribe(res=>{
       this.productData = res;
@@ -60,7 +57,6 @@ export class ProductdetailsComponent implements OnInit {
       
     })
   }
-
   deleteProducts(product: any){
     this.api.deleteProducts(product.pid).subscribe(res=>{
       alert("The Product deleted!")

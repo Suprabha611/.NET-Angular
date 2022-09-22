@@ -1,4 +1,3 @@
-import { getLocaleDateFormat } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
@@ -19,6 +18,5 @@ export class HomeComponent implements OnInit {
 }
 class products{
   blue:boolean=true;
-  shadow:boolean=true;
   size:boolean=true;
 }

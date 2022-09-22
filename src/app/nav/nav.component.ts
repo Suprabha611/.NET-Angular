@@ -18,13 +18,15 @@ export class NavComponent implements OnInit {
 
   //Accessing the Search Component
   //Property
-  productentered: string = ' '  //Dream Catcher
+  productentered: string=' '  //Dream Catcher
   //Event
-  search_product(product_name: string): void { //Dream Catcher
-    if (!product_name) {
-      this.productentered = ' ';
+  search_product(product_name:string):void{ //Laptop
+    if(product_name=='')
+    {
+      // this.productentered=' ';
+      alert('search something');
     }
-    this.productentered = product_name; //Dream Catcher
+    this.productentered=product_name  ; //Laptop
     console.log(product_name)
   }
   //Auth Service

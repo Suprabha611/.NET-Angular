@@ -11,29 +11,29 @@
             <a class="nav-link active" aria-current="page" routerLink="home">{{title}}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="register" *ngIf="!auth">Register</a>
+            <a class="nav-link" routerLink="register" >Register</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="prod_details" *ngIf="auth">Product Details</a>
+            <a class="nav-link" routerLink="prod_details" >Product Details</a>
           </li>
          <!--<li class="nav-item">
             <a class="nav-link" routerLink="allprod">All Catchers</a>
           </li>-->
           <li class="nav-item">
-            <a class="nav-link" routerLink="deals" *ngIf="auth">Today's Deals!!</a>
+            <a class="nav-link" routerLink="deals" >Today's Deals!!</a>
           </li>
-          <li class="nav-item dropdown" *ngIf="auth">
+          <li class="nav-item dropdown" >
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Designs </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <ul [ngSwitch]="productentered" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" routerLink="simple">Simple</a></li>
               <li><a class="dropdown-item" routerLink="led">LED</a></li>
               <li><a class="dropdown-item" routerLink="blue">Blue Feathers</a></li>
               <li><a class="dropdown-item" routerLink="multi">Multi-Layered</a></li>
               <li><a class="dropdown-item" href="#">Hand Crafted</a></li>
-              <li><a class="dropdown-item"  href="#">Evil Eye</a></li>
+              <li><a class="dropdown-item" href="#">Evil Eye</a></li>
             </ul>
           </li>  
-          <li class="nav-item dropdown" *ngIf="auth">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pricing </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" routerLink="small">Small - 100 to 400</a></li>
@@ -42,7 +42,7 @@
               <li><a class="dropdown-item" routerLink="special">Special - 500 to 4500 </a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown" *ngIf="auth">
+          <li class="nav-item dropdown" >
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ocassions </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" routerLink="gifts">Gifts</a></li>
@@ -50,7 +50,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="contact"  *ngIf="auth">Contact Us!!</a>
+            <a class="nav-link" routerLink="contact">Contact Us!!</a>
           </li>
         </ul>
         <form class="d-flex" >

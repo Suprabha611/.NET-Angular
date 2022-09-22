@@ -1,3 +1,4 @@
+<br><br>
 <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <h1 style="color: aliceblue; font-size: 20px;">PRODUCTS DETAILS</h1>
@@ -12,7 +13,6 @@
   <table class="table table-hover">
     <thead>
       <tr>
-        <th scope="col">Product ID</th>
         <th scope="col">Product Name</th>
         <th scope="col">Description</th>
         <th scope="col">Price</th>
@@ -22,7 +22,6 @@
     </thead>
     <tbody>
       <tr *ngFor="let product of productData">
-        <td>{{product.id}}</td>
         <td>{{product.pname}}</td>
         <td>{{product.pdescription}}</td>
         <td>{{product.price}}</td>

@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
     this.userService.validateAuth(false); //data parameter in your userservice
     this.loginForm = this.formBuilder.group({
       useremail: ['', [Validators.required, Validators.email, Validators.pattern('^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$')]],
-      password: ['', [Validators.required, Validators.minLength(6)]]
+      password: ['', [Validators.required, Validators.minLength(8)]]
     });
   }
   login(){
@@ -44,7 +44,7 @@ export class LoginComponent implements OnInit {
           toast: true,
           position: 'top',
           showConfirmButton: false,
-          timer: 3000,
+          timer: 1000,
           timerProgressBar: true,
         })
         Toast.fire({
@@ -59,7 +59,7 @@ export class LoginComponent implements OnInit {
           toast: true,
           position: 'top',
           showConfirmButton: false,
-          timer: 3000,
+          timer: 1000,
           timerProgressBar: true,
         })
         Toast.fire({

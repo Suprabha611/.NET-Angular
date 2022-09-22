@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Contact } from '../contact';
-import * as allprod from "../data/allprod.json"
 import { ContactService } from '../contact.service';
 
 @Component({
@@ -20,8 +19,4 @@ export class ContactComponent implements OnInit {
       this.contact=contactData;
     });
   }
-  all:any=(allprod as any).default;
-  //Toggle effect to show and hide the pdescription and price
-  //Property for toggle effect
-  productDetail=false;
 }

@@ -1,14 +1,29 @@
-.prodimg{
-    height:40px;
-    width:40px;
-    margin-left:100px;
-    margin-top:10px;
-    margin-bottom:10px;
-    border-radius:10px;
-
+marquee{
+    text-shadow:2px 3px 3px rgba(10, 70, 138, 0.875);
+    color:black;
+    font-size: 30px;
 }
-h3{
-    margin-left:20px;
-    color:blue;
-    text-shadow: 2px 3px 2px red;
+.card{
+    border-radius: 2px;
+    border-color:black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-style: solid;
+}
+.card:hover{
+    opacity: 0.9;
+    transform:scale(1.1);
+}
+
+img{
+    margin-top:6px;
+    margin-bottom:7px;
+    border-radius:3px;
+}
+#grad{
+    background-color:coral;
+  background-image: linear-gradient(to bottom right, coral, #2615a9);
+}
+div.polaroid {
+    text-align: center;
 }

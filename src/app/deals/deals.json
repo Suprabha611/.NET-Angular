@@ -1,0 +1,63 @@
+[
+    {
+        "pid":"01",
+        "price": "790",
+        "pstatus3": "In Stock",
+        "img":"https://static-01.daraz.com.bd/p/f2ea6593e0ea78a8216a48bfb44f995b.jpg"
+    },
+    {
+        "pid":"02",
+        "price": "699",
+        "pstatus3": "In Stock",
+        "img": "http://cdn.shopify.com/s/files/1/0541/1661/4325/products/200219900731_401844.jpg?v=1628094861"
+    },
+    {
+        "pid":"03",
+        "pname":"Peacock Feathered",
+        "price": "2375",
+        "img": "assets/img5.jpg",
+        "pstatus2": "Few Left!!",
+        "pdescription": "Noble as a Peacock!" 
+    },
+    {
+        "pid":"04",
+        "price": "2170",
+        "pstatus2": "Few Left!!",
+        "img": "https://i.pinimg.com/videos/thumbnails/originals/ab/2b/96/ab2b96cb85752cf1645f1a792aab524b.0000000.jpg"
+    },
+    {
+        "pid":"05",
+        "pname":"Colourful",
+        "price": "940",
+        "pstatus3": "In Stock",
+        "img": "https://cdn.shopify.com/s/files/1/0126/8901/4874/products/WhatsAppImage2020-12-14at8.07.49PM_00c958d9-138c-4500-a26c-866582b225d7_360x.jpg?v=1624867313"
+    },
+    {
+        "pid":"06",
+        "price": "225",
+        "pstatus3": "In Stock",
+        "img": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71rfkRJtZ6L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+        "pid":"07",
+        "pname":"Simple & Elegant",
+        "price": "225",
+        "pstatus": "In Stock",
+        "img": "https://i.pinimg.com/originals/90/68/c5/9068c5d5b0feab0b18c9b5d34eef65a6.jpg",
+        "pdescription": "Elegant as Marbles!!" 
+    },
+    {
+        "pid":"08",
+        "price": "2170",
+        "pstatus2": "Few Left!!",
+        "img": "https://i.pinimg.com/videos/thumbnails/originals/ab/2b/96/ab2b96cb85752cf1645f1a792aab524b.0000000.jpg",
+        "pdescription": "Cute One!!"
+    },
+    {
+        "pid":"09",
+        "price": "1710",
+        "pstatus3": "In Stock",
+        "img": "https://cdn.shopify.com/s/files/1/0060/2426/5846/products/e61311a482f2cc80b5be9a80f7a9078e.jpg?v=1544035753",
+        "pdescription": "As a Bracelet" 
+    }
+]

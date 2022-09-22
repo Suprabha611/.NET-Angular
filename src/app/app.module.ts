@@ -30,6 +30,8 @@ import { AllprodComponent } from './allprod/allprod.component';
 import { RegisterComponent } from './register/register.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
+import { DealsComponent } from './deals/deals.component';
+import { MegadealsComponent } from './deals/megadeals/megadeals.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,9 @@ import { CartItemsComponent } from './cart-items/cart-items.component';
     AllprodComponent,
     RegisterComponent,
     ProductdetailsComponent,
-    CartItemsComponent
+    CartItemsComponent,
+    DealsComponent,
+    MegadealsComponent
   ],
   imports: [
     BrowserModule,

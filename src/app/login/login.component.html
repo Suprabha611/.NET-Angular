@@ -10,22 +10,22 @@
                             <div class="form-group">
                                 <input type="email" class="form-control" name="useremail" formControlName="useremail" placeholder="User Email">
                                 <label class="error ng-binding"
-                                    *ngIf="submitted && f['useremail'].errors?.['required']" style="color:white;">*Email is required</label>
+                                    *ngIf="submitted && f['useremail'].errors?.['required']" style="color:black;">*Email is required</label>
                                 <label class="error ng-binding"
-                                    *ngIf="submitted && f['useremail'].errors?.['useremail']" style="color:white;">*Must be a valid email address!!</label>
+                                    *ngIf="submitted && f['useremail'].errors?.['useremail']" style="color:black;">*Must be a valid email address!!</label>
                             </div><br>
                             <div class="form-group">
                                 <input type="password" class="form-control" name="password" formControlName="password" placeholder="Password">
                                 <label class="error ng-binding"
-                                    *ngIf="submitted && f['password'].errors?.['required']" style="color:white;">Password is required</label>
+                                    *ngIf="submitted && f['password'].errors?.['required']" style="color:black;">Password is required</label>
                                 <label class="error ng-binding"
-                                    *ngIf="submitted && f['password'].errors?.['minlength']" style="color:white;">Password must be at least 8 characters</label>
+                                    *ngIf="submitted && f['password'].errors?.['minlength']" style="color:black;">Password must be at least 8 characters</label>
                             </div><br>
                             <button type="submit" class="btn btn-warning" href="">Login</button>
                             <div class="ms-fs-12 text-center ms-mt-x ms-mb-m forgot">
-                                <p style="padding-top:30px">
-                                    <a href="register" class="secondary ng-binding" target="_blank">Don't have an account? Register!!</a>
-                                </p>
+                                <span class="ms-fs-12 ng-binding" style="color:black;">Don't have an account?
+                                    <a class="secondary ng-binding" href="register"> Register!! </a>
+                                </span>
                             </div>
                         </div>
                     </form>

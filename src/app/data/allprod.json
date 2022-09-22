@@ -1,6 +1,19 @@
 [
     {
         "pid": "01",
+        "price": "410",
+        "pstatus3": "In Stock",
+        "img": "https://m.media-amazon.com/images/I/616e8RqdEsL._UL1500_.jpg",
+        "pdescription": "In Chain too!!"
+    },
+    {
+        "pid": "02",
+        "price": "450",
+        "pstatus3": "In Stock",
+        "img": "https://cdn.shopify.com/s/files/1/3106/6296/products/P3522-SA-Dreamcatcher-Necklace.jpg?v=1624268195",
+        "pdescription": "In Chain too!!"
+    },{
+        "pid": "01",
         "pname": "Colourful",
         "price": "300",
         "pstatus": "In Stock",

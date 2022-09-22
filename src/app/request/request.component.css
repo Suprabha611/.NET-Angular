@@ -12,8 +12,8 @@ marquee{
 }
 .card:hover{
     opacity: 0.9;
+    transform:scale(1.1);
 }
-
 img{
     margin-top:6px;
     margin-bottom:7px;

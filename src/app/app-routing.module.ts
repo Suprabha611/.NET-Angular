@@ -18,6 +18,8 @@ import { GiftsComponent } from './gifts/gifts.component';
 import { RequestComponent } from './request/request.component';
 import { ContactComponent } from './contact/contact.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
+import { AllprodComponent } from './allprod/allprod.component';
+import { MegadealsComponent } from './deals/megadeals/megadeals.component';
 
 //Configure the routing path for the above imported components
 const routes: Routes = [
@@ -39,6 +41,8 @@ const routes: Routes = [
   {path:'contact',component:ContactComponent},
   {path: 'register', component:RegisterComponent},
   {path:'cartitem', component:CartItemsComponent},
+  {path: 'allprod', component:AllprodComponent},
+  {path:'deals', component:MegadealsComponent},
   {path:'**', redirectTo:'/home', pathMatch:'full'}
 ];
 

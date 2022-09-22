@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 import * as card from "../data/card.json";
+import { CartService } from '../cart.service';
+import { Cartitem } from '../cartitem';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-card',
@@ -9,16 +12,13 @@ import * as card from "../data/card.json";
 export class CardComponent implements OnInit {
 
   constructor() { }
-  onOrder()
-  {
-    alert("Fill in the details!!");
-  }
 
-  ngOnInit(): void {
-  }
   mycolor1='red'
   mycolor2='darkorange'
   mycolor3='green'
+
+  ngOnInit(): void {
+  }
 
   card:any=(card as any).default;
 

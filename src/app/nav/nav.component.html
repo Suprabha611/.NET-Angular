@@ -13,13 +13,16 @@
           <li class="nav-item">
             <a class="nav-link" routerLink="register" *ngIf="!auth">Register</a>
           </li>
-          <!--<li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" routerLink="prod_details" *ngIf="auth">Product Details</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="cards" *ngIf="auth">All Products</a>
+         <!--<li class="nav-item">
+            <a class="nav-link" routerLink="allprod">All Catchers</a>
           </li>-->
-          <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="deals" *ngIf="auth">Today's Deals!!</a>
+          </li>
+          <li class="nav-item dropdown" *ngIf="auth">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Designs </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" routerLink="simple">Simple</a></li>
@@ -30,7 +33,7 @@
               <li><a class="dropdown-item"  href="#">Evil Eye</a></li>
             </ul>
           </li>  
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown" *ngIf="auth">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pricing </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" routerLink="small">Small - 100 to 400</a></li>
@@ -39,24 +42,26 @@
               <li><a class="dropdown-item" routerLink="special">Special - 500 to 4500 </a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown" *ngIf="auth">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ocassions </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" routerLink="gifts">Gifts</a></li>
               <li><a class="dropdown-item" routerLink="request">Special Edition Request</a></li>
             </ul>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact"  *ngIf="auth">Contact Us!!</a>
+          </li>
         </ul>
-        <form class="d-flex">
-          <!--<input type="text" #productname placeholder="Enter product name" style="border-radius:2px; height: 40px;">&nbsp;
-          <button class="btn btn-outline-success"  type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:2px; width:70px; height: 40px; color: blue;">Find!!</button>
-          <br>-->
-          <!--<app-search [product]="productentered"></app-search>  &nbsp;&nbsp;&nbsp;
-          <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;" routerLink="login" *ngIf="auth">Logout</a>-->
-          <button routerLink='cartitem' style="height:5px;border:none;" *ngIf="auth">
+        <form class="d-flex" >
+          <input type="text" #productname placeholder="Enter product name" style="border-radius:2px; height: 40px;">&nbsp;
+          <button class="btn btn-outline-success"  type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:2px; width:70px; height: 40px; color: blue;">
+            <i class="fa-solid fa-magnifying-glass"></i></button>
+          <app-search [product]="productentered"></app-search>  &nbsp;&nbsp;&nbsp;
+          <button routerLink='cartitem' style="height:5px;border:none;">
             <span class="fa fa-cart-plus" style="font-size:16px;color:black"><sup class="text-warning" style="font-size:10px;margin-left:3px;">{{cartCount}}</sup></span>
           </button> &nbsp;&nbsp;&nbsp;
-          <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;color:black;" routerLink="login" *ngIf="auth">Logout </a>
+          <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;color:black;" routerLink="login">Logout </a>
         </form>
       </div>
     </div>

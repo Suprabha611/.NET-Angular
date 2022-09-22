@@ -1,0 +1,32 @@
+<marquee style="font-size:x-large; text-align: center;"> Today's Deals!!!</marquee>
+<br> <br>
+<div class="card-body col-lg-12">
+<div style="float:left;" class="polaroid">
+    <div class="row">
+        <div class="card col-sm-9" style="width: 18rem; margin-left:40px; margin-bottom: 50px;">
+            <!--Property Binding-->
+            <img [src]="product.img" class="card-img-top"
+                style="height:300px; width:230px; margin-left:25px; margin-top: 20px;">
+            <div class="card-body">
+                <!--Interpolation Binding-->
+                <div>
+                    {{product.pname | uppercase}}
+                    <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+                </div> <br>
+                <div [hidden]="productDetail">
+                    {{product.pdescription}}
+                    <br> <br>
+                    <b>Price: {{product.price | currency:'INR'}}</b>
+                    <p [ngStyle]="{color:mycolor1}"> <b>{{product.pstatus1}}</b></p>
+                    <p [ngStyle]="{color:mycolor2}"> <b>{{product.pstatus2}}</b></p>
+                    <p [ngStyle]="{color:mycolor3}"> <b>{{product.pstatus3}}</b></p>
+                    <app-content></app-content>
+                    <div class="card-text">
+                        <button type="button" id="grad" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

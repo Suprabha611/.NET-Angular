@@ -51,7 +51,7 @@ export class CartItemsComponent implements OnInit {
 
     Toast.fire({
       icon: 'error',
-      title: 'Item deleted successfully'
+      title: 'Item deleted successfully!'
     })
     this.ngOnInit();
   }

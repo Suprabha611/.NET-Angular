@@ -18,8 +18,9 @@
           <p [ngStyle]="{color:mycolor1}"> <b>{{c.pstatus1}}</b></p>
           <p [ngStyle]="{color:mycolor2}"> <b>{{c.pstatus2}}</b></p>
           <p [ngStyle]="{color:mycolor3}"> <b>{{c.pstatus3}}</b></p>
-          <app-content></app-content>
+         <!--<app-content></app-content>-->
           <div class="card-text">
+            Quantity: <input type="number" name="quantity" [(ngModel)]="quantity" style="width:37px;border-radius:4px;" min="1" max="8"><br><br>
             <button type="button" id="grad" class="btn btn-primary" (click)="addToCart(c)" data-bs-toggle="modal" data-bs-target="#exampleModal"> Add To Cart</button>
           </div> 
         </div>

@@ -1,6 +1,6 @@
 [
     {
-        "id":"01",
+        "id":1,
         "pname":"Led Crafted",
         "price": "700",
         "img":"assets/img4.jpg",
@@ -8,7 +8,7 @@
         "pdescription": "Light your room!!"
     },
     {
-        "id":"02",
+        "id":2,
         "pname":"Multi-Layered",
         "price": "900",
         "img": "assets/img3.jpg",
@@ -16,7 +16,7 @@
         "pdescription": "Wonderful as gaint wheel!!"
     },
     {
-        "id":"03",
+        "id":3,
         "pname":"Special Designs",
         "price": "1255",
         "img": "assets/img2.jpg",
@@ -24,7 +24,7 @@
         "pdescription": "Beautiful as Butterfly!!"
     },
     {
-        "id":"04",
+        "id":4,
         "pname":"Peacock Feathered",
         "price": "2475",
         "img": "assets/img5.jpg",
@@ -32,7 +32,7 @@
         "pdescription": "Noble as a Peacock!" 
     },
     {
-        "id":"05",
+        "id":5,
         "pname":"Spiritual",
         "price": "1780",
         "img":"assets/img11.jpeg",
@@ -40,7 +40,7 @@
         "pdescription": "Holy!!"
     },
     {
-        "id":"06",
+        "id":6,
         "pname":"Blue Coloured",
         "price": "1350",
         "img": "assets/img1.jpg",
@@ -48,7 +48,7 @@
         "pdescription": "Who doesn't like blue??"
     },
     {
-        "id":"07",
+        "id":7,
         "pname":"Evil Eye",
         "price": "2700",
         "img": "assets/img9.jpg",
@@ -56,7 +56,7 @@
         "pdescription": "Evil eyes off!!"
     },
     {
-        "id":"08",
+        "id":8,
         "pname":"Moon Shaped",
         "price": "1400",
         "img": "assets/img10.jpg",

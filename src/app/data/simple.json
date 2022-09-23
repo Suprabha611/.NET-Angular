@@ -1,6 +1,6 @@
 [
     {
-        "id":"01",
+        "id":1,
         "pname":"Colourful",
         "price": "300",
         "pstatus": "In Stock",
@@ -8,7 +8,7 @@
         "pdescription": "Best to gift someone."
     },
     {
-        "id":"02",
+        "id":2,
         "pname":"Superb!",
         "price": "290",
         "pstatus": "In Stock",
@@ -16,7 +16,7 @@
         "pdescription": "Peace!!"
     },
     {
-        "id":"03",
+        "id":3,
         "pname":"Colourful",
         "price": "300",
         "pstatus": "In Stock",
@@ -24,7 +24,7 @@
         "pdescription": "What's better than these?!"
     },
     {
-        "id":"04",
+        "id":4,
         "pname":"Simple & Elegant",
         "price": "275",
         "pstatus": "In Stock",
@@ -32,7 +32,7 @@
         "pdescription": "Elegant as Marbles!!" 
     },
     {
-        "id":"05",
+        "id":5,
         "pname":"Simple & Elegant",
         "price": "210",
         "pstatus": "In Stock",
@@ -40,7 +40,7 @@
         "pdescription": "Small and cute!!"
     },
     {
-        "id":"06",
+        "id":6,
         "pname":"Small & Simple",
         "price": "150",
         "pstatus": "In Stock",
@@ -48,7 +48,7 @@
         "pdescription": "Like a keychain!!"
     },
     {
-        "id":"07",
+        "id":7,
         "pname":"Small & Simple",
         "price": "230",
         "pstatus": "In Stock",
@@ -56,7 +56,7 @@
         "pdescription": "Hang anywhere!!"
     },
     {
-        "id":"08",
+        "id":8,
         "pname":"White Coloured",
         "price": "350",
         "pstatus": "In stock",

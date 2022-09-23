@@ -1,9 +1,8 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment';
-//npm install sweetalert2
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import Swal from 'sweetalert2';
 
 @Component({
@@ -41,7 +40,7 @@ export class RegisterComponent implements OnInit {
 
     this.http.post<any>(this.userurl, this.registerForm.value)
       .subscribe(res => {
-        alert("signUp Successful");
+        alert("Sign Up Successful!!");
         this.registerForm.reset();
         this.router.navigate(['login']);
       })

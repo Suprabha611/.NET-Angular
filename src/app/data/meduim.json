@@ -1,48 +1,48 @@
 [
     {
-        "id":"01",
+        "id":1,
         "price": "1350",
         "pstatus2": "Few Left!!",
         "img":"https://i.pinimg.com/736x/4b/bb/85/4bbb85d88cbca362ea49a10a9216a7d4.jpg"
     },
     {
-        "id":"02",
+        "id":2,
         "price": "1290",
         "pstatus2": "Few Left!!",
         "img": "https://glitzhandicraft.com/wp-content/uploads/2021/03/Paradise-Peacock-dream-catcher.png"
     },
     {
-        "id":"03",
+        "id":3,
         "price": "510",
         "pstatus3": "In Stock",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDgRFiqQlpTAofrs-etRITttb-mmVTS9S9vyMk8pqUYH_i439Sr1hdbvDCBnIa83XDaww&usqp=CAU"
     },
     {
-        "id":"04",
+        "id":4,
         "price": "550",
         "pstatus3": "In Stock",
         "img": "https://thumbs.dreamstime.com/b/dream-catcher-abstract-bokeh-background-63781756.jpg"
     },
     {
-        "id":"05",
+        "id":5,
         "price": "1470",
         "pstatus2": "Few Left!!",
         "img":"https://fsa.zobj.net/crop.php?r=P5M8w1b-CwFQ5qRmvOo0nGoD9tw8EQzj1g2z3H0n_kJ74yCmIgJBhXScSuzyvup_0jW1HTPEcfQ7SZiBgVuXI8vSt12SmTLPY7HCbqUbGvCIHZqpudZvnFDikDQ19KFuAVo7q0LcslA7zmj6RJvYZmjSnzfEQaBLTjIEFna_l_qNnSZ6jWBB_8BZF7NgB9MMN5rRAPnpOPrkdCgU"
     },
     {
-        "id":"06",
+        "id":6,
         "price": "550",
         "pstatus3": "In Stock",
         "img": "https://lh3.googleusercontent.com/jxhAB9aNPCdiQKvVIV95Jlt7SOIgZ7WVNOtm1cjD9mTQV3puRjT99p0u0M8zeoEeMKk=w800-h500-rw"
     },
     {
-        "id":"07",
+        "id":7,
         "price": "1030",
         "pstatus3": "In Stock",
         "img": "https://i.pinimg.com/474x/38/62/e7/3862e77c11e7e92a387896b0ed8f3e67.jpg"
     },
     {
-        "id":"08",
+        "id":8,
         "price": "1350",
         "pstatus1": "Out of Stock!!",
         "img": "https://www.fnp.com/images/pr/l/v20200719162403/white-floral-dreamcatcher_1.jpg"

@@ -1,48 +1,48 @@
 [
     {
-        "pid":"01",
+        "id":"01",
         "price": "1900",
         "pstatus3": "In Stock",
         "img":"https://i.pinimg.com/736x/a8/2d/17/a82d1759f9633206b2ca1ab3e1ea5cad.jpg"
     },
     {
-        "pid":"02",
+        "id":"02",
         "price": "1290",
         "pstatus3": "In Stock",
         "img": "https://m.media-amazon.com/images/I/81Z4Vq5tTxL.jpg"
     },
     {
-        "pid":"03",
+        "id":"03",
         "price": "1040",
         "pstatus3": "In Stock",
         "img": "https://cdn.shopify.com/s/files/1/0126/8901/4874/products/WhatsAppImage2020-12-14at8.07.49PM_00c958d9-138c-4500-a26c-866582b225d7_360x.jpg?v=1624867313"
     },
     {
-        "pid":"04",
+        "id":"04",
         "price": "2275",
         "pstatus2": "Few Left!!",
         "img": "https://cdn.shopify.com/s/files/1/0614/0343/1082/products/il_794xN.3338982060_23gr_1400x.jpg?v=1647958235"
     },
     {
-        "pid":"05",
+        "id":"05",
         "price": "1910",
         "pstatus3": "In Stock",
         "img":"https://cdn.shopify.com/s/files/1/0590/6844/8974/products/large-bohemian-dreamcatcher_480x480.jpg?v=1628430555"
     },
     {
-        "pid":"06",
+        "id":"06",
         "price": "3150",
         "pstatus1": "Out of Stock!!",
         "img": "https://i.ebayimg.com/images/g/U8MAAOSwhRhiLqP7/s-l500.jpg"
     },
     {
-        "pid":"07",
+        "id":"07",
         "price": "1230",
         "pstatus3": "In Stock",
         "img": "https://canary.contestimg.wish.com/api/webimage/5f3ce7902ea6e33db3053c8b-large.jpg?cache_buster=575c319c3c48f96347b144067318e52a"
     },
     {
-        "pid":"08",
+        "id":"08",
         "price": "1450",
         "pstatus2": "Few Left!!",
         "img": "https://m.media-amazon.com/images/I/7149JhreY4L._AC_SL1000_.jpg"

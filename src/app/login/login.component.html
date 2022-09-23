@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <div class="login-form">
-                    <label style="margin-left:320px;"> <h1 style="font-weight: bolder;">LOGIN IN!!</h1></label>
+                    <label style="margin-left:295px;"> <h1 style="font-weight: bolder;">LOGIN IN!!</h1></label>
                     <form class="mt-5" [formGroup]="loginForm" (ngSubmit)="login()">
                         <br>
                         <div class="mt-5">
@@ -22,13 +22,13 @@
                                     *ngIf="submitted && f['password'].errors?.['minlength']" style="color:black;">Password must be at least 8 characters</label>
                             </div><br>
                             <button type="submit" class="btn btn-warning" href="">Login</button>
-                            <div class="ms-fs-12 text-center ms-mt-x ms-mb-m forgot">
-                                <span class="ms-fs-12 ng-binding" style="color:black;">Don't have an account?
-                                    <a class="secondary ng-binding" href="register"> Register!! </a>
-                                </span>
-                            </div>
                         </div>
                     </form>
+                    <div class="ms-fs-12 text-center ms-mt-x ms-mb-m forgot"><br>
+                        <span class="ms-fs-12 ng-binding" style="color:black; margin-left:120px ;">Don't have an account?
+                            <a class="secondary ng-binding" href="register"> Register!! </a>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>

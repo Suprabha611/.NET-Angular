@@ -1,44 +1,38 @@
 <div class="mt-5">
     <div class="col-md-12 min-vh-100 d-flex flex-column">
-        <div class="login-form">
-            <form class="mt-5" [formGroup]="registerForm" (ngSubmit)="register()">
-                <h2 class="text-center secondary ms-mb-m main-heading ng-binding">Signup!!</h2>
-                <br>
+        <div class="login-form"> 
+            <label style="margin-left:620px;"> <h1 style="font-weight: bolder;">SIGN UP!!</h1></label>
+            <form class="mt-5" [formGroup]="registerForm" (ngSubmit)="submitHandler()">
+                <br> <br>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="username" formControlName="username"
-                        placeholder="Enter Username">
-                    <label class="error ng-binding" *ngIf="submitted && f['username'].invalid" style="color:white;">Name is required
-                    </label>
+                    <input type="text" class="form-control" name="username" formControlName="username" placeholder="Enter Username">
+                    <label class="error ng-binding" *ngIf="submitted && f['username'].invalid" style="color:white;">Required </label>
                 </div>
                 <br>
                 <div class="form-group">
-                    <input type="email" class="form-control" name="useremail" formControlName="useremail"
-                        placeholder="Enter email">
-                    <label class="error ng-binding" *ngIf="submitted && f['useremail'].invalid" style="color:white;">Email is required
-                        </label>
-                    <label class="error ng-binding" *ngIf="submitted && f['useremail'].errors?.['useremail']" style="color:white;">Email must be a valid email address</label>
+                    <input type="email" class="form-control" name="useremail" formControlName="useremail" placeholder="Enter email">
+                    <label class="error ng-binding" *ngIf="submitted && f['useremail'].invalid" style="color:white;">*Required </label>
+                    <label class="error ng-binding" *ngIf="submitted && f['useremail'].errors?.['useremail']" style="color:white;">*Must be a valid email address</label>
                 </div>
                 <br>
                 <div class="form-group">
-                    <input type="password" class="form-control" name="password" formControlName="password"
-                        placeholder="Enter password">
-                    <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['password']" style="color:white;">Password is required</label>
-                    <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['minlength']" style="color:white;">Password must be at least 8 characters</label>
+                    <input type="password" class="form-control" name="password" formControlName="password" placeholder="Enter password">
+                    <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['password']" style="color:white;">*Password is required</label>
+                    <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['minlength']" style="color:white;">*Password must be at least 8 characters</label>
                 </div>
                 <br>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="mobile" formControlName="mobile"
-                        placeholder="Enter Mobile number">
-                    <label class="error ng-binding" *ngIf="submitted && f['mobile'].errors?.['required']" style="color:white;">Mobile number is required</label>
+                    <input type="text" class="form-control" name="mobile" formControlName="mobile" placeholder="XXXXXXXXXX">
+                    <label class="error ng-binding" *ngIf="submitted && f['mobile'].errors?.['required']" style="color:white;">Required</label>
                 </div>
                 <br>
-                <button type="submit" class="btn btn-warning">Register</button>
-                <div class="text-center ms-mt-x ms-mb-m register-already-account" style="padding-top:30px">
-                    <span class="ms-fs-12 ng-binding">Already have an account?
-                        <a class="secondary ng-binding" href="login"> Login! </a>
-                    </span>
-                </div>
+                <button type="submit" class="btn btn-warning">Register!!</button>
             </form>
+            <div class="text-center ms-mt-x ms-mb-m register-already-account" style="padding-top:30px">
+                <span class="ms-fs-12 ng-binding" style="color:black ;">Already have an account?
+                    <a class="secondary ng-binding" href="login"> Login!! </a>
+                </span>
+            </div>
         </div>
     </div>
 </div>

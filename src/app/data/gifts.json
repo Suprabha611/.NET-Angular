@@ -1,49 +1,49 @@
 [
     {
-        "pid":"01",
+        "id":"01",
         "price": "1999",
         "pstatus3": "In Stock",
         "img":"https://cdn.shopify.com/s/files/1/2739/6532/products/WhatsAppImage2021-11-24at9.31.57AM_900x.jpg?v=1637728331"
     },
     {
-        "pid":"02",
+        "id":"02",
         "price": "1290",
         "pstatus3": "In Stock",
         "img": "https://cdn.shopify.com/s/files/1/2739/6532/products/WhatsAppImage2022-06-16at12.12.53PM_900x.jpg?v=1655362069"
     },
     {
-        "pid":"03",
+        "id":"03",
         "price": "1350",
         "pstatus2": "Few Left!!",
         "img": "https://m.media-amazon.com/images/I/61VKf9nlzzL._AC_SL1000_.jpg"
     },
     {
-        "pid":"04",
+        "id":"04",
         "price": "1210",
         "pstatus3": "In Stock",
         "img": "https://i.etsystatic.com/14930145/c/1001/795/0/25/il/374da8/2130464807/il_340x270.2130464807_1vkw.jpg"
     },
     {
-        "pid":"05",
+        "id":"05",
         "price": "1650",
         "pstatus1": "Out of Stock!!",
         "img":"http://cdn.shopify.com/s/files/1/1305/2183/products/EvilEyeMultilayerDreamcatcher_5_1200x630.jpg?v=1652684086"
     },
     {
-        "pid":"06",
+        "id":"06",
         "price": "3790",
         "pstatus2": "Few Left!",
         "img": "https://i.ebayimg.com/thumbs/images/g/fyYAAOSw4KVb2hiJ/s-l1600.jpg"
 
     },
     {
-        "pid":"07",
+        "id":"07",
         "price": "2270",
         "pstatus2": "Few Left!!",
         "img": "https://i.pinimg.com/videos/thumbnails/originals/ab/2b/96/ab2b96cb85752cf1645f1a792aab524b.0000000.jpg"
     },
     {
-        "pid":"08",
+        "id":"08",
         "price": "970",
         "pstatus3": "In Stock",
         "img": "https://i.pinimg.com/originals/26/5e/5c/265e5c4efa9010677f4e1a426054c205.jpg"

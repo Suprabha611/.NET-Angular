@@ -1,15 +1,7 @@
 {
   "posts": [
     {
-      "pid": "01",
-      "pname": "Colourful",
-      "price": "300",
-      "pstatus": "In Stock",
-      "img": "https://4.imimg.com/data4/TW/SC/ANDROID-29384607/product-500x500.jpeg",
-      "pdescription": "Best to gift someone."
-    },
-    {
-      "pid": "02",
+      "id": "02",
       "pname": "Superb!",
       "price": "290",
       "pstatus": "In Stock",
@@ -17,7 +9,7 @@
       "pdescription": "Peace!!"
     },
     {
-      "pid": "03",
+      "id": "03",
       "pname": "Colourful",
       "price": "300",
       "pstatus": "In Stock",
@@ -25,7 +17,7 @@
       "pdescription": "What's better than these?!"
     },
     {
-      "pid": "04",
+      "id": "04",
       "pname": "Simple & Elegant",
       "price": "275",
       "pstatus": "In Stock",
@@ -33,7 +25,7 @@
       "pdescription": "Elegant as Marbles!!"
     },
     {
-      "pid": "05",
+      "id": "05",
       "pname": "Simple & Elegant",
       "price": "210",
       "pstatus": "In Stock",
@@ -41,7 +33,7 @@
       "pdescription": "Small and cute!!"
     },
     {
-      "pid": "06",
+      "id": "06",
       "pname": "Small & Simple",
       "price": "150",
       "pstatus": "In Stock",
@@ -49,7 +41,7 @@
       "pdescription": "Like a keychain!!"
     },
     {
-      "pid": "07",
+      "id": "07",
       "pname": "Small & Simple",
       "price": "230",
       "pstatus": "In Stock",
@@ -57,7 +49,7 @@
       "pdescription": "Hang anywhere!!"
     },
     {
-      "pid": "08",
+      "id": "08",
       "pname": "White Coloured",
       "price": "350",
       "pstatus": "In stock",
@@ -65,464 +57,472 @@
       "pdescription": "White as a Swan!"
     },
     {
-      "pid": "01",
+      "id": "01",
       "price": "890",
       "pstatus3": "In Stock",
       "img": "https://static-01.daraz.com.bd/p/f2ea6593e0ea78a8216a48bfb44f995b.jpg"
     },
     {
-      "pid": "02",
+      "id": "02",
       "price": "570",
       "pstatus3": "In Stock",
       "img": "https://wudbox.in/wp-content/uploads/2020/10/1-21.jpg"
     },
     {
-      "pid": "03",
+      "id": "03",
       "price": "490",
       "pstatus3": "In Stock",
       "img": "https://m.media-amazon.com/images/I/819cq3895lL._AC_SY550_.jpg"
     },
     {
-      "pid": "04",
+      "id": "04",
       "price": "890",
       "pstatus3": "In Stock",
       "img": "http://sc04.alicdn.com/kf/H0dbb633f2d30492da2bcb5af309f3e9bk.jpg"
     },
     {
-      "pid": "05",
+      "id": "05",
       "price": "1690",
       "pstatus2": "Few Left!!",
       "img": "https://glitzhandicraft.com/wp-content/uploads/2020/05/Deep-blue-dreamer-dream-catcher-1.jpg"
     },
     {
-      "pid": "06",
+      "id": "06",
       "price": "970",
       "pstatus1": "Out of Stock",
       "img": "https://i.pinimg.com/originals/96/67/22/96672202df24ef5745b4e05a54e45fb0.jpg"
     },
     {
-      "pid": "07",
+      "id": "07",
       "price": "799",
       "pstatus3": "In Stock",
       "img": "http://cdn.shopify.com/s/files/1/0541/1661/4325/products/200219900731_401844.jpg?v=1628094861"
     },
     {
-      "pid": "08",
+      "id": "08",
       "price": "1050",
       "pstatus2": "Few Left!!",
       "img": "https://i0.wp.com/i.pinimg.com/originals/a1/2a/e8/a12ae85dc1ae33085360c81d80c4aba9.jpg?resize=160,120"
     },
     {
-      "pid": "01",
+      "id": "01",
       "price": "1999",
       "pstatus3": "In Stock",
       "img": "https://cdn.shopify.com/s/files/1/2739/6532/products/WhatsAppImage2021-11-24at9.31.57AM_900x.jpg?v=1637728331"
     },
     {
-      "pid": "02",
+      "id": "02",
       "price": "1290",
       "pstatus3": "In Stock",
       "img": "https://cdn.shopify.com/s/files/1/2739/6532/products/WhatsAppImage2022-06-16at12.12.53PM_900x.jpg?v=1655362069"
     },
     {
-      "pid": "03",
+      "id": "03",
       "price": "1350",
       "pstatus2": "Few Left!!",
       "img": "https://m.media-amazon.com/images/I/61VKf9nlzzL._AC_SL1000_.jpg"
     },
     {
-      "pid": "04",
+      "id": "04",
       "price": "1210",
       "pstatus3": "In Stock",
       "img": "https://i.etsystatic.com/14930145/c/1001/795/0/25/il/374da8/2130464807/il_340x270.2130464807_1vkw.jpg"
     },
     {
-      "pid": "05",
+      "id": "05",
       "price": "1650",
       "pstatus1": "Out of Stock!!",
       "img": "http://cdn.shopify.com/s/files/1/1305/2183/products/EvilEyeMultilayerDreamcatcher_5_1200x630.jpg?v=1652684086"
     },
     {
-      "pid": "06",
+      "id": "06",
       "price": "3790",
       "pstatus2": "Few Left!",
       "img": "https://i.ebayimg.com/thumbs/images/g/fyYAAOSw4KVb2hiJ/s-l1600.jpg"
     },
     {
-      "pid": "07",
+      "id": "07",
       "price": "2270",
       "pstatus2": "Few Left!!",
       "img": "https://i.pinimg.com/videos/thumbnails/originals/ab/2b/96/ab2b96cb85752cf1645f1a792aab524b.0000000.jpg"
     },
     {
-      "pid": "08",
+      "id": "08",
       "price": "970",
       "pstatus3": "In Stock",
       "img": "https://i.pinimg.com/originals/26/5e/5c/265e5c4efa9010677f4e1a426054c205.jpg"
     },
     {
-      "pid": "01",
+      "id": "01",
       "price": "1900",
       "pstatus3": "In Stock",
       "img": "https://i.pinimg.com/736x/a8/2d/17/a82d1759f9633206b2ca1ab3e1ea5cad.jpg"
     },
     {
-      "pid": "02",
+      "id": "02",
       "pname": "White Coloured",
       "price": "1290",
       "pstatus3": "In Stock",
       "img": "https://m.media-amazon.com/images/I/81Z4Vq5tTxL.jpg"
     },
     {
-      "pid": "03",
+      "id": "03",
       "pname": "Colourful",
       "price": "1040",
       "pstatus3": "In Stock",
       "img": "https://cdn.shopify.com/s/files/1/0126/8901/4874/products/WhatsAppImage2020-12-14at8.07.49PM_00c958d9-138c-4500-a26c-866582b225d7_360x.jpg?v=1624867313"
     },
     {
-      "pid": "04",
+      "id": "04",
       "pname": "Simple & Elegant",
       "price": "2275",
       "pstatus2": "Few Left!!",
       "img": "https://cdn.shopify.com/s/files/1/0614/0343/1082/products/il_794xN.3338982060_23gr_1400x.jpg?v=1647958235"
     },
     {
-      "pid": "05",
+      "id": "05",
       "pname": "Simple & Elegant",
       "price": "1910",
       "pstatus3": "In Stock",
       "img": "https://cdn.shopify.com/s/files/1/0590/6844/8974/products/large-bohemian-dreamcatcher_480x480.jpg?v=1628430555"
     },
     {
-      "pid": "06",
+      "id": "06",
       "price": "3150",
       "pstatus1": "Out of Stock!!",
       "img": "https://i.ebayimg.com/images/g/U8MAAOSwhRhiLqP7/s-l500.jpg"
     },
     {
-      "pid": "07",
+      "id": "07",
       "price": "1230",
       "pstatus3": "In Stock",
       "img": "https://canary.contestimg.wish.com/api/webimage/5f3ce7902ea6e33db3053c8b-large.jpg?cache_buster=575c319c3c48f96347b144067318e52a"
     },
     {
-      "pid": "08",
+      "id": "08",
       "price": "1450",
       "pstatus2": "Few Left!!",
       "img": "https://m.media-amazon.com/images/I/7149JhreY4L._AC_SL1000_.jpg"
     },
     {
-      "pid": "01",
+      "id": "01",
       "price": "410",
       "pstatus3": "In Stock",
       "img": "https://m.media-amazon.com/images/I/71VmXQaeV+S._AC_SL1500_.jpg",
       "pdescription": "Half Moon!!"
     },
     {
-      "pid": "02",
+      "id": "02",
       "price": "600",
       "pstatus2": "Few Left!!",
       "img": "https://i5.walmartimages.com/asr/ae0db410-999f-46a3-bc54-76495211b528.a850c68d243f46b31b7d46a9bae9aa68.jpeg?odnHeight=580&odnWidth=580&odnBg=FFFFFF",
       "pdescription": "Cute!!"
     },
     {
-      "pid": "03",
+      "id": "03",
       "price": "350",
       "pstatus3": "In Stock",
       "img": "https://wudbox.in/wp-content/uploads/2020/10/1-22.jpg",
       "pdescription": "Multi-Beauty"
     },
     {
-      "pid": "04",
+      "id": "04",
       "price": "310",
       "pstatus3": "In Stock",
       "img": "https://i5.walmartimages.com/asr/b9a0483f-6a5e-41da-ad04-3770d9ae5b16_1.205c53073d37ed15830ea679ebbedc13.jpeg",
       "pdescription": "Multi-Light"
     },
     {
-      "pid": "05",
+      "id": "05",
       "price": "650",
       "pstatus2": "Few Left!!",
       "img": "http://sc04.alicdn.com/kf/H20f96c47f4ea476cb281ade3959d5ad3F.jpg",
       "pdescription": "Hang like a chime"
     },
     {
-      "pid": "06",
+      "id": "06",
       "price": "700",
       "pstatus2": "Few Left!!",
       "img": "https://i.pinimg.com/736x/3c/00/ec/3c00ec16c5d74c5f4927f78e99308087.jpg",
       "pdescription": "Like a Wind Chime!!"
     },
     {
-      "pid": "07",
+      "id": "07",
       "price": "370",
       "pstatus3": "In Stock",
       "img": "https://m.media-amazon.com/images/I/41pZ6La38BL._AC_.jpg",
       "pdescription": "Cute One!!"
     },
     {
-      "pid": "08",
+      "id": "08",
       "price": "570",
       "pstatus2": "Few Left!!",
       "img": "https://i.pinimg.com/originals/f9/54/35/f954351b87a594857b06ec5150b21647.jpg",
       "pdescription": "Star Beauty"
     },
     {
-      "pid": "01",
+      "id": "01",
       "price": "1350",
       "pstatus2": "Few Left!!",
       "img": "https://i.pinimg.com/736x/4b/bb/85/4bbb85d88cbca362ea49a10a9216a7d4.jpg"
     },
     {
-      "pid": "02",
+      "id": "02",
       "price": "1290",
       "pstatus2": "Few Left!!",
       "img": "https://glitzhandicraft.com/wp-content/uploads/2021/03/Paradise-Peacock-dream-catcher.png"
     },
     {
-      "pid": "03",
+      "id": "03",
       "price": "510",
       "pstatus3": "In Stock",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDgRFiqQlpTAofrs-etRITttb-mmVTS9S9vyMk8pqUYH_i439Sr1hdbvDCBnIa83XDaww&usqp=CAU"
     },
     {
-      "pid": "04",
+      "id": "04",
       "price": "550",
       "pstatus3": "In Stock",
       "img": "https://thumbs.dreamstime.com/b/dream-catcher-abstract-bokeh-background-63781756.jpg"
     },
     {
-      "pid": "05",
+      "id": "05",
       "price": "1470",
       "pstatus2": "Few Left!!",
       "img": "https://fsa.zobj.net/crop.php?r=P5M8w1b-CwFQ5qRmvOo0nGoD9tw8EQzj1g2z3H0n_kJ74yCmIgJBhXScSuzyvup_0jW1HTPEcfQ7SZiBgVuXI8vSt12SmTLPY7HCbqUbGvCIHZqpudZvnFDikDQ19KFuAVo7q0LcslA7zmj6RJvYZmjSnzfEQaBLTjIEFna_l_qNnSZ6jWBB_8BZF7NgB9MMN5rRAPnpOPrkdCgU"
     },
     {
-      "pid": "06",
+      "id": "06",
       "price": "550",
       "pstatus3": "In Stock",
       "img": "https://lh3.googleusercontent.com/jxhAB9aNPCdiQKvVIV95Jlt7SOIgZ7WVNOtm1cjD9mTQV3puRjT99p0u0M8zeoEeMKk=w800-h500-rw"
     },
     {
-      "pid": "07",
+      "id": "07",
       "price": "1030",
       "pstatus3": "In Stock",
       "img": "https://i.pinimg.com/474x/38/62/e7/3862e77c11e7e92a387896b0ed8f3e67.jpg"
     },
     {
-      "pid": "08",
+      "id": "08",
       "price": "1350",
       "pstatus1": "Out of Stock!!",
       "img": "https://www.fnp.com/images/pr/l/v20200719162403/white-floral-dreamcatcher_1.jpg"
     },
     {
-      "pid": "01",
+      "id": "01",
       "price": "300",
       "pstatus3": "In Stock",
       "img": "https://wudbox.in/wp-content/uploads/2020/10/1-21.jpg"
     },
     {
-      "pid": "02",
+      "id": "02",
       "price": "290",
       "pstatus3": "In Stock",
       "img": "https://m.media-amazon.com/images/I/81Z4Vq5tTxL.jpg"
     },
     {
-      "pid": "03",
+      "id": "03",
       "price": "300",
       "pstatus2": "Few Left!!",
       "img": "https://i.pinimg.com/236x/6a/87/3d/6a873d3d723facb69720d005fdb9df12.jpg"
     },
     {
-      "pid": "04",
+      "id": "04",
       "price": "275",
       "pstatus3": "In Stock",
       "img": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71rfkRJtZ6L._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
-      "pid": "05",
+      "id": "05",
       "price": "210",
       "pstatus1": "Out of Stock!!",
       "img": "https://i.pinimg.com/736x/40/24/64/402464aa64163ec739cd446a8decac86.jpg"
     },
     {
-      "pid": "06",
+      "id": "06",
       "price": "150",
       "pstatus3": "In Stock",
       "img": "https://i.pinimg.com/originals/a4/49/d2/a449d26b100d1556f5ba923ff90ff303.jpg"
     },
     {
-      "pid": "07",
+      "id": "07",
       "price": "230",
       "pstatus3": "Few Left!",
       "img": "https://i.pinimg.com/550x/e7/fb/ff/e7fbff7404da9d08f6e8e1162180e7d3.jpg"
     },
     {
-      "pid": "08",
+      "id": "08",
       "price": "350",
       "pstatus3": "In Stock",
       "img": "https://m.media-amazon.com/images/I/81mHmLA39CL._AC_SY879_.jpg"
     },
     {
-      "pid": "01",
+      "id": "01",
       "price": "410",
       "pstatus3": "In Stock",
       "img": "https://m.media-amazon.com/images/I/616e8RqdEsL._UL1500_.jpg",
       "pdescription": "In Chain too!!"
     },
     {
-      "pid": "02",
+      "id": "02",
       "price": "450",
       "pstatus3": "In Stock",
       "img": "https://cdn.shopify.com/s/files/1/3106/6296/products/P3522-SA-Dreamcatcher-Necklace.jpg?v=1624268195",
       "pdescription": "In Chain too!!"
     },
     {
-      "pid": "03",
+      "id": "03",
       "price": "2350",
       "pstatus2": "Few Left!!",
       "img": "https://www.figuren-shop.de/media/image/54/ca/4c/Alchemy-Halskette-Pagan-Dream-Catcher.jpg",
       "pdescription": "Chain-Beauty"
     },
     {
-      "pid": "04",
+      "id": "04",
       "price": "1910",
       "pstatus3": "In Stock",
       "img": "https://cdn.shopify.com/s/files/1/0060/2426/5846/products/e61311a482f2cc80b5be9a80f7a9078e.jpg?v=1544035753",
       "pdescription": "As a Bracelet"
     },
     {
-      "pid": "05",
+      "id": "05",
       "price": "400",
       "pstatus3": "In Stock",
       "img": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61pZNdSdjPL._UX679_.jpg",
       "pdescription": "Hang like a chime"
     },
     {
-      "pid": "06",
+      "id": "06",
       "price": "2400",
       "pstatus2": "Few Left!",
       "img": "https://i.etsystatic.com/27016517/r/il/45d516/3100789601/il_fullxfull.3100789601_lqlc.jpg",
       "pdescription": "As a Key Chain!!"
     },
     {
-      "pid": "07",
+      "id": "07",
       "price": "2570",
       "pstatus2": "Few Left!!",
       "img": "https://i.etsystatic.com/25545372/r/il/93e330/3257113943/il_fullxfull.3257113943_jkkh.jpg",
       "pdescription": "Cute One!!"
     },
     {
-      "pid": "08",
+      "id": "08",
       "price": "1870",
       "pstatus3": "In Stock",
       "img": "https://cdn.shopify.com/s/files/1/0168/9196/9590/products/HTB1HQ0dLG6qK1RjSZFmq6x0PFXaC_1024x.jpg?v=1606766223",
       "pdescription": "Star Beauty"
     },
     {
-      "pid": "01",
+      "id": "01",
       "price": "350",
       "pstatus3": "In Stock",
       "img": "https://i.pinimg.com/originals/d9/96/74/d996748641778fc77428f5dfe6d67d78.jpg"
     },
     {
-      "pid": "02",
+      "id": "02",
       "price": "380",
       "pstatus3": "In Stock",
       "img": "http://sc04.alicdn.com/kf/HTB1seXcmljTBKNjSZFDq6zVgVXas.jpg"
     },
     {
-      "pid": "03",
+      "id": "03",
       "price": "390",
       "pstatus3": "In Stock",
       "img": "https://i.etsystatic.com/19135345/c/2752/2185/242/104/il/f1e2b1/1798953443/il_340x270.1798953443_5jpg.jpg"
     },
     {
-      "pid": "04",
+      "id": "04",
       "price": "290",
       "pstatus2": "Few Left!",
       "img": "https://i.pinimg.com/originals/03/5a/09/035a09cee426173f560e41f6b43cd42a.jpg"
     },
     {
-      "pid": "05",
+      "id": "05",
       "price": "299",
       "pstatus3": "In Stock",
       "img": "https://i.pinimg.com/736x/89/b2/5d/89b25d26bc77504db71aeddab30bf880.jpg"
     },
     {
-      "pid": "06",
+      "id": "06",
       "price": "399",
       "pstatus2": "Few Left!",
       "img": "https://images-na.ssl-images-amazon.com/images/I/51xl0P1PriL.jpg"
     },
     {
-      "pid": "07",
+      "id": "07",
       "price": "299",
       "pstatus3": "In Stock",
       "img": "https://5.imimg.com/data5/ANDROID/Default/2020/9/JX/IY/JR/29332440/product-jpeg-500x500.jpg"
     },
     {
-      "pid": "08",
+      "id": "08",
       "price": "250",
       "pstatus3": "In Stock",
       "img": "https://i.etsystatic.com/30877554/r/il/30e3f5/3328728061/il_fullxfull.3328728061_lbmg.jpg"
     },
     {
-      "pid": "01",
+      "id": "01",
       "price": "910",
       "pstatus3": "In Stock",
       "img": "https://dreamcatcher.com/images/P/Black-energy-flow-dream-catcher-4-inches-hematite%20%28Custom%29.jpg",
       "pdescription": "Half Moon!!"
     },
     {
-      "pid": "02",
+      "id": "02",
       "price": "800",
       "pstatus3": "In Stock",
       "img": "https://i.pinimg.com/736x/63/0a/a2/630aa29b378f8113494ecade412e44e5--trust-me-dreamcatchers.jpg",
       "pdescription": "Cute!!"
     },
     {
-      "pid": "03",
+      "id": "03",
       "price": "1350",
       "pstatus2": "Few Left!!",
       "img": "https://m.media-amazon.com/images/I/61VKf9nlzzL._AC_SL1000_.jpg",
       "pdescription": "Multi-Beauty"
     },
     {
-      "pid": "04",
+      "id": "04",
       "price": "1910",
       "pstatus3": "In Stock",
       "img": "https://w0.peakpx.com/wallpaper/228/585/HD-wallpaper-dream-catcher-arena-rainbow-thumbnail.jpg",
       "pdescription": "Multi-Light"
     },
     {
-      "pid": "05",
+      "id": "05",
       "price": "1050",
       "pstatus1": "Out of Stock!!",
       "img": "https://rukminim1.flixcart.com/image/416/416/kxrvi4w0/wind-chime/k/j/k/dream-catcher-car-hanging-vibrant-white-colour-shivji-car-original-imaga5ekrnrtcujn.jpeg?q=70",
       "pdescription": "Hang like a chime"
     },
     {
-      "pid": "06",
+      "id": "06",
       "price": "1790",
       "pstatus2": "Few Left!",
       "img": "https://glitzhandicraft.com/wp-content/uploads/2021/03/The-blue-ocean-Dream-catcher.png",
       "pdescription": "Like a Wind Chime!!"
     },
     {
-      "pid": "07",
+      "id": "07",
       "price": "2270",
       "pstatus2": "Few Left!!",
       "img": "https://i.pinimg.com/videos/thumbnails/originals/ab/2b/96/ab2b96cb85752cf1645f1a792aab524b.0000000.jpg",
       "pdescription": "Cute One!!"
     },
     {
-      "pid": "08",
+      "id": "08",
       "price": "2570",
       "pstatus3": "In Stock",
       "img": "https://i.pinimg.com/originals/54/31/d7/5431d715ddcb3cd51c6dcd0cf73e60ef.jpg",
       "pdescription": "Star Beauty"
+    },
+    {
+      "id": "fJ6Bdg2",
+      "pname": "Colourful",
+      "pdescription": "\"Best to gift someone.\"  ",
+      "price": "299",
+      "pstatus": "",
+      "img": "https://4.imimg.com/data4/TW/SC/ANDROID-29384607/product-500x500.jpeg"
     }
   ],
   "users": [
@@ -530,33 +530,61 @@
       "username": "damon@gmail.com",
       "useremail": "damon@gmail.com",
       "password": "damon@123",
-      "mobile": "",
-      "pid": 1
-    },
-    {
-      "pname": "Colourful",
-      "price": 750,
-      "img": "https://4.imimg.com/data4/TW/SC/ANDROID-29384607/product-500x500.jpeg",
-      "pdescription": "Best to gift someone.",
-      "quantity": 0,
-      "pid": "01"
+      "mobile": ""
     },
     {
       "username": "Admin",
       "useremail": "admin@gmail.com",
       "password": "admin@123",
-      "mobile": "9898989898",
-      "pid": 3
+      "mobile": "9898989898"
     },
     {
       "username": "Elena",
       "useremail": "elena@gmail.com",
       "password": "elena123",
-      "mobile": "",
-      "pid": 4
+      "mobile": "9353318407"
     }
   ],
   "cart": [
-    {}
+    {
+      "id": "01",
+      "pname": "Led Crafted",
+      "pdescription": "Light your room!!",
+      "price": "700",
+      "img": "assets/img4.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "02",
+      "pname": "Multi-Layered",
+      "pdescription": "Wonderful as gaint wheel!!",
+      "price": "900",
+      "img": "assets/img3.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "03",
+      "pname": "Special Designs",
+      "pdescription": "Beautiful as Butterfly!!",
+      "price": "1255",
+      "img": "assets/img2.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "08",
+      "pname": "Moon Shaped",
+      "pdescription": "Magic Moon!!",
+      "price": "1400",
+      "img": "assets/img10.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "07",
+      "pname": "Evil Eye",
+      "pdescription": "Evil eyes off!!",
+      "price": "2700",
+      "img": "assets/img9.jpg",
+      "quantity": 1
+    }
   ]
 }

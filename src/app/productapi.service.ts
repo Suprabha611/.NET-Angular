@@ -21,14 +21,14 @@ export class ProductapiService {
     }))
   }
 
-  updateProducts(data:any, pid:number){
-    return this.http.put<any>("http://localhost:3000/posts"+'/'+ pid, data).pipe(map((res:any)=>{
+  updateProducts(data:any, id:number){
+    return this.http.put<any>("http://localhost:3000/posts"+'/'+ id, data).pipe(map((res:any)=>{
       return res;
     }))
   }
 
-  deleteProducts(pid:number){
-    return this.http.delete<any>("http://localhost:3000/posts"+'/'+ pid).pipe(map((res:any)=>{
+  deleteProducts(id:number){
+    return this.http.delete<any>("http://localhost:3000/posts"+'/'+ id).pipe(map((res:any)=>{
       return res;
     }))
   }

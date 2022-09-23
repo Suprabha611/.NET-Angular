@@ -1,48 +1,48 @@
 [
     {
-        "pid":"01",
+        "id":"01",
         "price": "300",
         "pstatus3": "In Stock",
         "img":"https://wudbox.in/wp-content/uploads/2020/10/1-21.jpg"
     },
     {
-        "pid":"02",
+        "id":"02",
         "price": "290",
         "pstatus3": "In Stock",
         "img": "https://m.media-amazon.com/images/I/81Z4Vq5tTxL.jpg"
     },
     {
-        "pid":"03",
+        "id":"03",
         "price": "300",
         "pstatus2": "Few Left!!",
         "img": "https://i.pinimg.com/236x/6a/87/3d/6a873d3d723facb69720d005fdb9df12.jpg"
     },
     {
-        "pid":"04",
+        "id":"04",
         "price": "275",
         "pstatus3": "In Stock",
         "img": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71rfkRJtZ6L._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
-        "pid":"05",
+        "id":"05",
         "price": "210",
         "pstatus1": "Out of Stock!!",
         "img":"https://i.pinimg.com/736x/40/24/64/402464aa64163ec739cd446a8decac86.jpg"
     },
     {
-        "pid":"06",
+        "id":"06",
         "price": "150",
         "pstatus3": "In Stock",
         "img": "https://i.pinimg.com/originals/a4/49/d2/a449d26b100d1556f5ba923ff90ff303.jpg"
     },
     {
-        "pid":"07",
+        "id":"07",
         "price": "230",
         "pstatus3": "Few Left!",
         "img": "https://i.pinimg.com/550x/e7/fb/ff/e7fbff7404da9d08f6e8e1162180e7d3.jpg"
     },
     {
-        "pid":"08",
+        "id":"08",
         "price": "350",
         "pstatus3": "In Stock",
         "img": "https://m.media-amazon.com/images/I/81mHmLA39CL._AC_SY879_.jpg"

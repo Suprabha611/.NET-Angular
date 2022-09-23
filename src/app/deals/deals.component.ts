@@ -13,7 +13,7 @@ export class DealsComponent implements OnInit {
   constructor(private cartsvc:CartService) { }
   //Add to cart
   cart:Cartitem={
-    pid:0,
+    id:0,
     pname:'',
     pdescription:'',
     price:0,
@@ -34,7 +34,7 @@ export class DealsComponent implements OnInit {
     this.cart.price=product.price;
     this.cart.totalPrice=product.totalPrice;
     this.cart.quantity=this.quantity;
-    this.cart.pid=product.id;
+    this.cart.id=product.id;
     this.cartsvc.addToCart(this.cart);
     console.log(product.id);
     const Toast = Swal.mixin({

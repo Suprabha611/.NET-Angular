@@ -16,7 +16,7 @@ export class ProductdetailsComponent implements OnInit {
   showAdd!: boolean;
   showUpdate!: boolean;
  
-  constructor(private formbuilder: FormBuilder, private api:ProductapiService) { }
+  constructor(private formbuilder: FormBuilder,private router:Router,  private api:ProductapiService) { }
 
   ngOnInit(): void {
     this.formValue = this.formbuilder.group({
@@ -33,10 +33,12 @@ export class ProductdetailsComponent implements OnInit {
     this.showUpdate = false;
   }
   postProductDetails(){
+
     this.productModelObj.pname = this.formValue.value.pname;
     this.productModelObj.pdescription = this.formValue.value.pdescription;
     this.productModelObj.price = this.formValue.value.price;
     this.productModelObj.img = this.formValue.value.img;
+
 
     this.api.postProducts(this.productModelObj).subscribe(res=>{
       console.log(res);
@@ -50,38 +52,38 @@ export class ProductdetailsComponent implements OnInit {
       alert("Something went wrong. Please check again!")
     })
   }
-  getProducts(){
+getProducts(){
     this.api.getProductDetails().subscribe(res=>{
       this.productData = res;
     }, err=>{
-      
+
     })
   }
   deleteProducts(product: any){
-    this.api.deleteProducts(product.pid).subscribe(res=>{
+    this.api.deleteProducts(product.id).subscribe(res=>{
       alert("The Product deleted!")
       this.getProducts();
-    }), 
+    }),
     ({
 
     })
   }
-  onEdit(product: any){
+onEdit(product: any){
     this.showAdd = false;
     this.showUpdate = true;
-    this.productModelObj.pid = product.pid;
+    this.productModelObj.id = product.id;
     this.formValue.controls['pname'].setValue(product.pname);
     this.formValue.controls['pdescription'].setValue(product.pdescription);
     this.formValue.controls['price'].setValue(product.price);
     this.formValue.controls['img'].setValue(product.img);
   }
-  updateProductDetails(){
+updateProductDetails(){
     this.productModelObj.pname = this.formValue.value.pname;
     this.productModelObj.pdescription = this.formValue.value.pdescription;
     this.productModelObj.price = this.formValue.value.price;
     this.productModelObj.img = this.formValue.value.img;
-    this.api.updateProducts(this.productModelObj, this.productModelObj.pid).subscribe(res=>{
-      alert("Product updated!")
+    this.api.updateProducts(this.productModelObj, this.productModelObj.id).subscribe(res=>{
+      alert("The product updated!")
 
       let ref = document.getElementById('cancel')
       ref?.click();

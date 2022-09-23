@@ -14,7 +14,7 @@ export class CardComponent implements OnInit {
   constructor(private cartsvc:CartService) { }
   //Add to cart
   cart:Cartitem={
-    pid:0,
+    id:0,
     pname:'',
     pdescription:'',
     price:0,
@@ -32,14 +32,14 @@ export class CardComponent implements OnInit {
     this.cart.price=product.price;
     this.cart.totalPrice=product.totalPrice;
     this.cart.quantity=this.quantity;
-    this.cart.pid=product.id;
+    this.cart.id=product.id;
     this.cartsvc.addToCart(this.cart);
     console.log(product.id);
     const Toast = Swal.mixin({
       toast: true,
       position: 'top',
       showConfirmButton: false,
-      timer: 3000,
+      timer: 1000,
       timerProgressBar: true,
     })
 
@@ -51,7 +51,6 @@ export class CardComponent implements OnInit {
   }
   //Input Class Decorator
   @Input()product:any
-
 
   mycolor1='red'
   mycolor2='darkorange'

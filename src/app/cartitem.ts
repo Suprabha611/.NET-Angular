@@ -1,5 +1,5 @@
 export class Cartitem {
-    pid:number|any;
+    id:number|any;
     pname:string|undefined;
     pdescription:string|undefined;
     price:number|any;

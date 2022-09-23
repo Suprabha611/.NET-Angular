@@ -20,13 +20,13 @@ export class NavComponent implements OnInit {
   //Property
   productentered: string=' '  //Dream Catcher
   //Event
-  search_product(product_name:string):void{ //Laptop
+  search_product(product_name:string):void{ //Dream Catcher
     if(product_name=='')
     {
       // this.productentered=' ';
-      alert('search something');
+      alert('Search Something!!');
     }
-    this.productentered=product_name  ; //Laptop
+    this.productentered=product_name  ; //Dream Catcher
     console.log(product_name)
   }
   //Auth Service

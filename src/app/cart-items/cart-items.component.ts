@@ -11,12 +11,11 @@ import Swal from 'sweetalert2';
 })
 export class CartItemsComponent implements OnInit {
 
-  // quanties: number = 0;
   //constructor injection
   constructor(private cartSvc: CartService, private router:Router) { }
   //Cart List
   carts:Cartitem={
-    pid:0,
+    id:0,
     pname:'',
     pdescription:'',
     price:0,
@@ -45,7 +44,7 @@ export class CartItemsComponent implements OnInit {
       toast: true,
       position: 'top',
       showConfirmButton: false,
-      timer: 3000,
+      timer: 1000,
       timerProgressBar: true,
     })
 

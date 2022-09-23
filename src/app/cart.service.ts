@@ -29,31 +29,12 @@ export class CartService {
 
     return this.http.delete(this.url + item.id)
   }
-  // updateCart(item: any) {
-  //   let id = item.id;
-  //   console.log(item.quantity)
-  //   this.http.patch<Cartitem>(this.url + item.id, {
-  //     quantity: 1,
-  //     totalPrice: 1
-  //   });
-
-  //   return this.http.patch<Cartitem>(this.url + item.id, {
-
-  //     quantity: item.quantity,
-  //     totalPrice: item.totalPrice
-
-  //   });
-  // }
-  // emptyCart() {
-  // }
   public countSubject = new Subject<number>();
   getCount() {
     return this.getCartItems().subscribe(res => {
       // We use the subject to emit data
       this.countSubject.next(res.length);
-      console.log(this.countSubject + "inside sub")
-      //const user=res.length   
+      console.log(this.countSubject + "inside sub")  
     })
   }
-
 }

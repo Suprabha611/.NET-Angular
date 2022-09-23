@@ -1,55 +1,55 @@
 [
     {
-        "pid":"01",
+        "id":"01",
         "price": "910",
         "pstatus3": "In Stock",
         "img":"https://dreamcatcher.com/images/P/Black-energy-flow-dream-catcher-4-inches-hematite%20%28Custom%29.jpg",
         "pdescription": "Half Moon!!"
     },
     {
-        "pid":"02",
+        "id":"02",
         "price": "800",
         "pstatus3": "In Stock",
         "img": "https://i.pinimg.com/736x/63/0a/a2/630aa29b378f8113494ecade412e44e5--trust-me-dreamcatchers.jpg",
         "pdescription": "Cute!!"
     },
     {
-        "pid":"03",
+        "id":"03",
         "price": "1350",
         "pstatus2": "Few Left!!",
         "img": "https://m.media-amazon.com/images/I/61VKf9nlzzL._AC_SL1000_.jpg",
         "pdescription": "Multi-Beauty"
     },
     {
-        "pid":"04",
+        "id":"04",
         "price": "1910",
         "pstatus3": "In Stock",
         "img": "https://w0.peakpx.com/wallpaper/228/585/HD-wallpaper-dream-catcher-arena-rainbow-thumbnail.jpg",
         "pdescription": "Multi-Light" 
     },
     {
-        "pid":"05",
+        "id":"05",
         "price": "1050",
         "pstatus1": "Out of Stock!!",
         "img":"https://rukminim1.flixcart.com/image/416/416/kxrvi4w0/wind-chime/k/j/k/dream-catcher-car-hanging-vibrant-white-colour-shivji-car-original-imaga5ekrnrtcujn.jpeg?q=70",
         "pdescription": "Hang like a chime"
     },
     {
-        "pid":"06",
+        "id":"06",
         "price": "1790",
         "pstatus2": "Few Left!",
         "img": "https://glitzhandicraft.com/wp-content/uploads/2021/03/The-blue-ocean-Dream-catcher.png",
         "pdescription": "Like a Wind Chime!!"
     },
     {
-        "pid":"07",
+        "id":"07",
         "price": "2270",
         "pstatus2": "Few Left!!",
         "img": "https://i.pinimg.com/videos/thumbnails/originals/ab/2b/96/ab2b96cb85752cf1645f1a792aab524b.0000000.jpg",
         "pdescription": "Cute One!!"
     },
     {
-        "pid":"08",
+        "id":"08",
         "price": "2570",
         "pstatus3": "In Stock",
         "img": "https://i.pinimg.com/originals/54/31/d7/5431d715ddcb3cd51c6dcd0cf73e60ef.jpg",

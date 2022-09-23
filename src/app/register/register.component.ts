@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment';
+//npm install sweetalert2
 import Swal from 'sweetalert2';
 
 @Component({
@@ -27,12 +28,12 @@ export class RegisterComponent implements OnInit {
     this.registerForm = this.formBuilder.group({
       username: ['', Validators.required, Validators.pattern('[A-Za-z]*'), Validators.minLength(6), Validators.maxLength(16)],
       useremail: ['', Validators.required],
-      password: ['', Validators.required, Validators.pattern('[A-Za-z0-9]*'), Validators.minLength(6), Validators.maxLength(14)],
+      password: ['', Validators.required, Validators.pattern('[A-Za-z0-9]*'), Validators.minLength(8), Validators.maxLength(15)],
       mobile: ['', Validators.required, Validators.pattern('[0-9]*')]
     });
   }
   get f() { return this.registerForm.controls; }
-  register() {
+  submitHandler() {
     this.submitted = true;
     if (this.registerForm.invalid) {
       return;
@@ -40,22 +41,9 @@ export class RegisterComponent implements OnInit {
 
     this.http.post<any>(this.userurl, this.registerForm.value)
       .subscribe(res => {
-        const Toast = Swal.mixin({
-          toast: true,
-          position: 'top',
-          showConfirmButton: false,
-          timer: 3000,
-          timerProgressBar: true,
-        })
-    
-        Toast.fire({
-          icon: 'success',
-          title: 'Sign Up Successful'
-        })
+        alert("signUp Successful");
         this.registerForm.reset();
         this.router.navigate(['login']);
       })
-
   }
-
 }

@@ -1,19 +1,27 @@
-input {
-    width: 80%;
-    margin-left: 70px;
-}
+/*input {
+    width: 70%;
+    margin-right: 50px;
+}*/
 form {
     padding: 15px;
-    margin-left: 380px;
-    width: 45%;
+    width: 30%;
+    margin-left:30px ;
     border-style:double;
     border-radius: 10px;
     border-color:black;
-    background-image:url(https://media.istockphoto.com/photos/dreamcatcher-on-a-forest-at-sunset-picture-id462156083?b=1&k=20&m=462156083&s=612x612&w=0&h=7LucjuarZ2NtAmxFBAFuH1NEbUmviy2wVAs2y5x8Yec=);
 }
 button {
-    margin-left: 220px;
+    margin-left: 130px;
 }
 span {
     color:aliceblue;
+}
+.bg-img {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.wallpapersafari.com/70/53/2g8da6.jpg);
+    /*min-height: 230px;*/
+    width: 1300px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }

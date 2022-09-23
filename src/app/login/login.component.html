@@ -1,11 +1,9 @@
-<div class="mt-5">
+<div class="mt-5" class="bg-img">
     <div class="col-md-12 min-vh-100 d-flex flex-column">
         <div class="row">
             <div class="col-lg-6 col-md-8 mx-auto">
-                <div class="login-form">
-                    <label style="margin-left:295px;"> <h1 style="font-weight: bolder;">LOGIN IN!!</h1></label>
-                    <form class="mt-5" [formGroup]="loginForm" (ngSubmit)="login()">
-                        <br>
+                <div class="login-form" style="margin-top:90px;">
+                    <form class="mt-5" [formGroup]="loginForm" style="margin-top:45px;" (ngSubmit)="login()">
                         <div class="mt-5">
                             <div class="form-group">
                                 <input type="email" class="form-control" name="useremail" formControlName="useremail" placeholder="User Email">
@@ -24,8 +22,8 @@
                             <button type="submit" class="btn btn-warning" href="">Login</button>
                         </div>
                     </form>
-                    <div class="ms-fs-12 text-center ms-mt-x ms-mb-m forgot"><br>
-                        <span class="ms-fs-12 ng-binding" style="color:black; margin-left:120px ;">Don't have an account?
+                    <div class="ms-fs-12 ms-mt-x ms-mb-m forgot"> <br>
+                        <span class="ms-fs-12 ng-binding" style="color:white; margin-left: 50px;">Don't have an account?
                             <a class="secondary ng-binding" href="register"> Register!! </a>
                         </span>
                     </div>

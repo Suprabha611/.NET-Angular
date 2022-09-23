@@ -1,9 +1,7 @@
-<div class="mt-5">
+<div class="mt-5" class="bg-img">
     <div class="col-md-12 min-vh-100 d-flex flex-column">
-        <div class="login-form"> 
-            <label style="margin-left:620px;"> <h1 style="font-weight: bolder;">SIGN UP!!</h1></label>
+        <div class="login-form" style="margin-top:90px;"> 
             <form class="mt-5" [formGroup]="registerForm" (ngSubmit)="submitHandler()">
-                <br> <br>
                 <div class="form-group">
                     <input type="text" class="form-control" name="username" formControlName="username" placeholder="Enter Username">
                     <label class="error ng-binding" *ngIf="submitted && f['username'].invalid" style="color:white;">Required </label>
@@ -22,14 +20,14 @@
                 </div>
                 <br>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="mobile" formControlName="mobile" placeholder="XXXXXXXXXX">
+                    <input type="text" class="form-control" name="mobile" formControlName="mobile" placeholder="Enter Mobile Number">
                     <label class="error ng-binding" *ngIf="submitted && f['mobile'].errors?.['required']" style="color:white;">Required</label>
                 </div>
                 <br>
                 <button type="submit" class="btn btn-warning">Register!!</button>
             </form>
-            <div class="text-center ms-mt-x ms-mb-m register-already-account" style="padding-top:30px">
-                <span class="ms-fs-12 ng-binding" style="color:black ;">Already have an account?
+            <div class="ms-mt-x ms-mb-m register-already-account" style="padding-top:30px">
+                <span class="ms-fs-12 ng-binding" style="color:white; margin-left:110px;">Already have an account?
                     <a class="secondary ng-binding" href="login"> Login!! </a>
                 </span>
             </div>

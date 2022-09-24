@@ -1,19 +1,19 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, CanActivate, Router,RouterStateSnapshot, UrlTree } from '@angular/router';
+import { ActivatedRouteSnapshot, CanActivate,Router, RouterStateSnapshot, UrlTree } from '@angular/router';
 import { Observable } from 'rxjs';
-import { UserService } from './user.service';
+import { AdminService } from './admin.service';
 
 @Injectable({
   providedIn: 'root'
 })
-export class AuthGuard implements CanActivate {
+export class AdminGuard implements CanActivate {
   isAuthenticated: boolean = false;
   constructor(
-    private authService: UserService, private router: Router) { }
+    private adminService: AdminService, private router: Router) { }
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-       var isAuthenticated= this.authService.authSubject.subscribe(
+      var isAuthenticated= this.adminService.adminSubject.subscribe(
         data => 
         {
           console.log('next subscribed value:' + data);

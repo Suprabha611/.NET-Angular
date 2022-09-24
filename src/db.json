@@ -534,13 +534,6 @@
       "mobile": ""
     },
     {
-      "id": 2,
-      "username": "Admin",
-      "useremail": "admin@gmail.com",
-      "password": "admin@123",
-      "mobile": "9898989898"
-    },
-    {
       "id": 3,
       "username": "Elena",
       "useremail": "elena@gmail.com",
@@ -555,14 +548,14 @@
       "id": 4
     }
   ],
-  "cart": [
+  "admin": [
     {
       "id": 1,
-      "pname": "Led Crafted",
-      "pdescription": "Light your room!!",
-      "price": "700",
-      "img": "assets/img4.jpg",
-      "quantity": 1
+      "username": "Admin",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "9898989898"
     }
-  ]
+  ],
+  "cart": []
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../user.service';
+import { AdminService } from '../admin.service';
 import { CartService } from '../cart.service';
 
 @Component({
@@ -8,8 +9,9 @@ import { CartService } from '../cart.service';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  constructor(private authService: UserService, private cartSvc: CartService) { }
+  constructor(private authService: UserService, private adminService: AdminService, private cartSvc: CartService) { }
   auth: boolean = false;
+  admin:boolean =false;
   //STRING INTERPOLATION
   title = 'DREAMS';
   //PROPERTY BINDING
@@ -35,6 +37,13 @@ export class NavComponent implements OnInit {
       data => {
         console.log('auth inside nav component: ' + data);
         this.auth = data;
+      }
+    );
+  //Admin Service
+    this.adminService.adminSubject.subscribe(
+      data => {
+        console.log('admin inside nav component: ' + data);
+        this.admin = data;
       }
     );
     //Cart count

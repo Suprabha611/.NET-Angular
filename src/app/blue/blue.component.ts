@@ -52,12 +52,9 @@ export class BlueComponent implements OnInit {
   //Input Class Decorator
   @Input()product:any
 
-
   mycolor1='red'
   mycolor2='darkorange'
   mycolor3='green'
-
-
   ngOnInit(): void {
   }
   blue:any=(blue as any).default;
@@ -68,7 +65,6 @@ export class BlueComponent implements OnInit {
   {
     this.productDetail=!this.productDetail;
   }
-  //function to toggle between the span content from > to < and vice versa
   //and bind the function to [ngClass]
   toggleContent(){
     var content='';

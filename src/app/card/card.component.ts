@@ -67,7 +67,6 @@ export class CardComponent implements OnInit {
   {
     this.productDetail=!this.productDetail;
   }
-  //function to toggle between the span content from > to < and vice versa
   //and bind the function to [ngClass]
   toggleContent(){
     var content='';

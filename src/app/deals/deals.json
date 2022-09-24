@@ -1,63 +1,74 @@
 [
     {
         "id":1,
+        "pname":"Black n White!",
         "price": 790,
         "pstatus3": "In Stock",
-        "img":"https://static-01.daraz.com.bd/p/f2ea6593e0ea78a8216a48bfb44f995b.jpg"
+        "img":"assets/img2.png",
+        "pdescription":"One old theme!"
     },
     {
         "id":2,
-        "price":699,
+        "pname":"Light!",
+        "price":1299,
         "pstatus3": "In Stock",
-        "img": "http://cdn.shopify.com/s/files/1/0541/1661/4325/products/200219900731_401844.jpg?v=1628094861"
+        "img": "assets/img1.png",
+        "pdescription":"Something Light!"
     },
     {
         "id":3,
-        "pname":"Peacock Feathered",
+        "pname":"Peacock Coloured",
         "price": 2375,
         "img": "assets/img5.jpg",
         "pstatus2": "Few Left!!",
-        "pdescription": "Noble as a Peacock!" 
+        "pdescription": "Isn't it beautiful?" 
     },
     {
         "id":4,
+        "pname":"Peacock Feathered",
         "price": 2170,
         "pstatus2": "Few Left!!",
+        "pdescription":"Beautifull as a Peacock!",
         "img": "https://i.pinimg.com/videos/thumbnails/originals/ab/2b/96/ab2b96cb85752cf1645f1a792aab524b.0000000.jpg"
     },
     {
         "id":5,
-        "pname":"Colourful",
-        "price": 940,
+        "pname":"Black!!",
+        "price": 2940,
+        "pdescription":"Black is always black!!",
         "pstatus3": "In Stock",
-        "img": "https://cdn.shopify.com/s/files/1/0126/8901/4874/products/WhatsAppImage2020-12-14at8.07.49PM_00c958d9-138c-4500-a26c-866582b225d7_360x.jpg?v=1624867313"
+        "img": "https://i.etsystatic.com/16797273/r/il/5d932a/3606202016/il_1588xN.3606202016_kac1.jpg"
     },
     {
         "id":6,
-        "price": 225,
+        "price": 2259,
+        "pname":"Shiny!",
+        "pdescription":"Shiny as Gems!",
         "pstatus3": "In Stock",
-        "img": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71rfkRJtZ6L._AC_UL480_FMwebp_QL65_.jpg"
+        "img": "https://i.etsystatic.com/16797273/r/il/b1d507/3423644768/il_1588xN.3423644768_53w4.jpg"
     },
     {
         "id":7,
-        "pname":"Simple & Elegant",
-        "price": 225,
+        "pname":"Wooden!",
+        "price": 525,
         "pstatus": "In Stock",
-        "img": "https://i.pinimg.com/originals/90/68/c5/9068c5d5b0feab0b18c9b5d34eef65a6.jpg",
-        "pdescription": "Elegant as Marbles!!" 
+        "img": "https://5.imimg.com/data5/TB/KM/MY-52028149/wooden-ring-dream-catcher-500x500.jpg",
+        "pdescription": "Elegant as always!!" 
     },
     {
         "id":8,
-        "price": 2170,
+        "price": 2970,
+        "pname":"Moon",
         "pstatus2": "Few Left!!",
-        "img": "https://i.pinimg.com/videos/thumbnails/originals/ab/2b/96/ab2b96cb85752cf1645f1a792aab524b.0000000.jpg",
-        "pdescription": "Cute One!!"
+        "img": "https://i.etsystatic.com/16797273/r/il/13e312/3277520243/il_1588xN.3277520243_o0hw.jpg",
+        "pdescription": "Chanda bhi hai deewana!"
     },
     {
         "id":9,
         "price": 1710,
+        "pname":"Bracelet",
         "pstatus3": "In Stock",
-        "img": "https://cdn.shopify.com/s/files/1/0060/2426/5846/products/e61311a482f2cc80b5be9a80f7a9078e.jpg?v=1544035753",
-        "pdescription": "As a Bracelet" 
+        "img": "https://cdn.shopify.com/s/files/1/0598/2915/8054/products/product-image-1775129914_480x480.jpg?v=1638891402",
+        "pdescription": "Now wear it anywhere!!" 
     }
 ]

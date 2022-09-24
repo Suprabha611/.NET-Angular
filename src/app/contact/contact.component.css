@@ -1,0 +1,9 @@
+.bg-img {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.wallpapersafari.com/70/53/2g8da6.jpg);
+    /*min-height: 230px;*/
+    width: 1300px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}

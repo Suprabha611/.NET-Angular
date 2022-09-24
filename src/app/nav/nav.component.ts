@@ -15,7 +15,7 @@ export class NavComponent implements OnInit {
   //STRING INTERPOLATION
   title = 'DREAMS';
   //PROPERTY BINDING
-  public logo = "https://img.freepik.com/premium-vector/dream-indian-catcher_118813-1238.jpg?w=2000.jpg";
+  public logo = "https://www.pngitem.com/pimgs/m/131-1311810_transparent-dreamcatcher-clipart-watercolor-dream-catcher-png-png.png";
   cartCount: number = 0;
 
   //Accessing the Search Component

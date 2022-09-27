@@ -1,6 +1,6 @@
 <marquee style="font-size:x-large; text-align: center;"> MOSTLY BROUGHT!!!</marquee>
 <br><br><br><br>
-<div *ngFor="let c of card" style="float:left;" class="polaroid">
+<div *ngFor="let c of car" style="float:left;" class="polaroid">
   <div class="row">
     <div class="card col-sm-9" style="width: 18rem; margin-left:40px; margin-bottom: 50px;">
       <!--Property Binding-->
@@ -17,8 +17,7 @@
         <p [ngStyle]="{color:mycolor2}"> <b>{{c.pstatus2}}</b></p>
         <p [ngStyle]="{color:mycolor3}"> <b>{{c.pstatus3}}</b></p>
         <div class="card-text">
-          Quantity: <input type="number" name="quantity" [(ngModel)]="quantity" style="width:37px;border-radius:4px;"
-            min="1" max="8"><br><br>
+          Quantity: <input type="number" name="quantity" [(ngModel)]="quantity" style="width:37px;border-radius:4px;" min="1" max="8"><br><br>
           <button type="button" id="grad" class="btn btn-primary" (click)="addToCart(c)" data-bs-toggle="modal"
             data-bs-target="#exampleModal"> Add To Cart</button>
         </div>

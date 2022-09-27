@@ -1,14 +1,6 @@
 {
   "posts": [
     {
-      "id": 2,
-      "pname": "Superb!",
-      "price": "290",
-      "pstatus": "In Stock",
-      "img": "https://i.pinimg.com/originals/18/6d/a8/186da84d552fe24ccf25158efbba6f92.jpg",
-      "pdescription": "Peace!!"
-    },
-    {
       "id": 3,
       "pname": "Colourful",
       "price": "300",
@@ -546,6 +538,13 @@
       "password": "Suprabha06",
       "mobile": "9898934580",
       "id": 4
+    },
+    {
+      "username": "Stars",
+      "useremail": "suprabha@gmail.com",
+      "password": "Suparbah07",
+      "mobile": "9898934580",
+      "id": 5
     }
   ],
   "admin": [
@@ -557,5 +556,38 @@
       "mobile": "9898989898"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": 3,
+      "pname": "Special Designs",
+      "pdescription": "Beautiful as Butterfly!!",
+      "price": "1255",
+      "img": "assets/img2.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 1,
+      "pname": "Led Crafted",
+      "pdescription": "Light your room!!",
+      "price": "700",
+      "img": "assets/img4.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "pname": "Light!",
+      "pdescription": "Something Light!",
+      "price": 1299,
+      "img": "assets/img1.png",
+      "quantity": 3
+    },
+    {
+      "id": 7,
+      "pname": "Evil Eye",
+      "pdescription": "Evil eyes off!!",
+      "price": "2700",
+      "img": "assets/img9.jpg",
+      "quantity": 3
+    }
+  ]
 }

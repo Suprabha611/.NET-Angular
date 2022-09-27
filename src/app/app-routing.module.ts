@@ -20,12 +20,23 @@ import { ContactComponent } from './contact/contact.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { AllprodComponent } from './allprod/allprod.component';
 import { MegadealsComponent } from './deals/megadeals/megadeals.component';
+import { BasicComponent } from './basic/basic.component';
+import { ChildComponent } from './child/child.component';
+import { SpiritualComponent } from './spiritual/spiritual.component';
+import { CarComponent } from './car/car.component';
+import { BookComponent } from './book/book.component';
+import { KeyComponent } from './key/key.component';
 
 //Configure the routing path for the above imported components
 const routes: Routes = [
   {path:'', redirectTo:'/home', pathMatch:'full'},
   {path:'login',component:LoginComponent},
   {path:'DREAMS',component:CardComponent},
+  {path:'basic',component:BasicComponent},
+  {path:'child',component:ChildComponent},
+  {path:'spiritual',component:SpiritualComponent},
+  {path:'car',component:CarComponent},
+  {path:'book',component:BookComponent},
   {path:'simple',component:SimpleComponent},
   {path:'led', component:LedComponent},
   {path:'blue', component:BlueComponent},
@@ -43,6 +54,7 @@ const routes: Routes = [
   {path:'cartitem', component:CartItemsComponent},
   {path: 'allprod', component:AllprodComponent},
   {path:'deals', component:MegadealsComponent},
+  {path: 'key', component:KeyComponent},
   {path:'**', redirectTo:'/home', pathMatch:'full'}
 ];
 

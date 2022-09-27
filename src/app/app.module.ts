@@ -13,8 +13,6 @@ import { HomeComponent } from './home/home.component';
 import {MatButtonModule} from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SimpleComponent } from './simple/simple.component';
-import { ContentComponent } from './content/content.component';
-import { ConchildComponent } from './content/conchild/conchild.component';
 import { LedComponent } from './led/led.component';
 import { BlueComponent } from './blue/blue.component';
 import { MultiComponent } from './multi/multi.component';
@@ -32,6 +30,12 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { DealsComponent } from './deals/deals.component';
 import { MegadealsComponent } from './deals/megadeals/megadeals.component';
+import { BasicComponent } from './basic/basic.component';
+import { CarComponent } from './car/car.component';
+import { SpiritualComponent } from './spiritual/spiritual.component';
+import { BookComponent } from './book/book.component';
+import { ChildComponent } from './child/child.component';
+import { KeyComponent } from './key/key.component';
 
 @NgModule({
   declarations: [
@@ -41,8 +45,6 @@ import { MegadealsComponent } from './deals/megadeals/megadeals.component';
     SearchComponent,
     HomeComponent,
     SimpleComponent,
-    ContentComponent,
-    ConchildComponent,
     LedComponent,
     BlueComponent,
     MultiComponent,
@@ -59,7 +61,13 @@ import { MegadealsComponent } from './deals/megadeals/megadeals.component';
     ProductdetailsComponent,
     CartItemsComponent,
     DealsComponent,
-    MegadealsComponent
+    MegadealsComponent,
+    BasicComponent,
+    CarComponent,
+    SpiritualComponent,
+    BookComponent,
+    ChildComponent,
+    KeyComponent,
   ],
   imports: [
     BrowserModule,

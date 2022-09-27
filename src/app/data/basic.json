@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "price": "890",
+        "pstatus3": "In Stock",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/d/d5/Sapn%C5%B3_gaudykl%C4%97.jpg"
+    },
+    {
+        "id":2,
+        "price": "570",
+        "pstatus3": "In Stock",
+        "img": "https://cdn.shopify.com/s/files/1/0274/3166/5773/files/rainbowdreamcatcher_480x480.jpg?v=1630988096"
+    },
+    {
+        "id":3,
+        "price": "890",
+        "pstatus3": "In Stock",
+        "img": "https://cdn.shopify.com/s/files/1/0274/3166/5773/files/cutedreamcatchers-61_1200x_d108e310-2aa5-45e4-9ecf-44f2c41c53a4_480x480.jpg?v=1630988017"
+    },
+    {
+        "id":4,
+        "price": "890",
+        "pstatus3": "In Stock",
+        "img": "http://cdn.shopify.com/s/files/1/0284/2450/products/DCWATERWAVE_1024x.jpg?v=1571438669" 
+    },
+    {
+        "id":5,
+        "price": "1690",
+        "pstatus2": "Few Left!!",
+        "img":"https://media.takealot.com/covers_images/591b262d08634a349fe05ab0c910cf0f/s-zoom.file"
+    },
+    {
+        "id":6,
+        "price": "970",
+        "pstatus1": "Out of Stock",
+        "img": "https://wonderwheelstore.com/wp-content/uploads/2019/04/Poseidoni-blue-Dreamcatcher-with-gold-leaves-441x500.jpeg"
+    },
+    {
+        "id":7,
+        "price": "399",
+        "pstatus3": "In Stock",
+        "img": "http://cdn.shopify.com/s/files/1/1163/9680/products/evileyedreamcatcher.jpg?v=1584083305"
+    },
+    {
+        "id":8,
+        "price": "350",
+        "pstatus2": "Few Left!!",
+        "img": "https://5.imimg.com/data5/BB/LB/MI/SELLER-86627670/1-500x500.jpg"
+    }
+]

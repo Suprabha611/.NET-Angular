@@ -1,0 +1,24 @@
+<marquee style="font-size:x-large; text-align: center; margin-top: 150px;">BUY NOW!!! <br>MOSTLY BROUGHT!!!</marquee>
+<br> <br>
+<div *ngFor="let k of key" style="float:left;" class="polaroid">
+  <div class="row">
+    <div class="card col-sm-3" style="width: 18rem; margin-left:40px; margin-bottom: 50px;">
+      <!--Property Binding-->
+      <img [src]="k.img" class="card-img-top" style="height:310px; width:220px; margin-left:25px; margin-top: 20px;">
+      <div class="card-body">
+        <!--Interpolation Binding-->
+        <div>
+          <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+        </div>
+        <div [hidden]="productDetail">
+          <b>Price: {{k.price | currency:'INR'}}</b> <br>
+          <p [ngStyle]="{color:mycolor1}"> <b>{{k.pstatus1}}</b></p>
+          <p [ngStyle]="{color:mycolor2}"> <b>{{k.pstatus2}}</b></p>
+          <p [ngStyle]="{color:mycolor3}"> <b>{{k.pstatus3}}</b></p>
+          <div class="card-text">
+            <button type="button" id="grad" class="btn btn-primary" (click)="addToCart(k)" data-bs-toggle="modal" data-bs-target="#exampleModal"> Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -21,3 +21,7 @@ button:hover{
 button{
     border-radius: 4px;
 }
+.title{
+     font-family: "Tangerine", serif;
+    font-size: medium;
+}
